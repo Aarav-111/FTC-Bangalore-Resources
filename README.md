@@ -225,7 +225,7 @@ Please keep files organised in the existing folder structure and use simple, cle
 | Role | Name |
 |---|---|
 | Created by | Aarav Jaisingh |
-| In collaboration with | Team Artifact (FRC), led by Nilesh Shah |
+| In collaboration with | Team R- Factor (FRC), led by Nilesh Shah |
 | Supported by | Prolabs Robotics |
 
 Thank you to every team and mentor who shares knowledge openly. This project grows because of you.
