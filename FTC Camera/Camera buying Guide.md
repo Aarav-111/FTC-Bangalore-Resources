@@ -12,7 +12,7 @@ A webcam's best choice depends on your budget and intended use. For video calls,
 
 | Webcam | Maximum advertised resolution | Frame rate | Focus | Built-in microphone | Approximate price | Best for |
 |---|---|---|---|---|---:|---|
-| [BigPassport Pro-Live N3](https://bigpassport.com/products/bigpassport-pro-live-n3-1080p-full-hd-usb-webcam-with-mic) | 1080p Full HD, as advertised | 30 FPS, as advertised | Confirm exact behaviour on listing | Yes, as advertised | ₹999 | Tight budgets |
+| [BigPassport Pro-Live N3](https://bigpassport.com/products/bigpassport-pro-live-n3-1080p-full-hd-usb-webcam-with-mic) - Recommended by Aarav J. | 1080p Full HD, as advertised | 30 FPS, as advertised | Confirm exact behaviour on listing | Yes, as advertised | ₹999 | Tight budgets |
 | [Logitech C270](https://www.amazon.in/s?k=Logitech+C270) | 720p HD | 30 FPS | Fixed focus | Yes, mono | ₹2,000–₹2,200 | Basic calls and classes |
 | [Logitech Brio 100](https://www.amazon.in/s?k=Logitech+Brio+100) | 1080p Full HD | 30 FPS | Fixed focus | Yes | ₹2,750–₹3,500 | Everyday use |
 | [Logitech C920 HD Pro](https://www.amazon.in/s?k=Logitech+C920+HD+Pro) | 1080p Full HD | 30 FPS | Autofocus | Yes, stereo | ₹7,000–₹9,000 | Streaming and demonstrations |
