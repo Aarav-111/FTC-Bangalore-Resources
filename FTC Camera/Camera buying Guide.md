@@ -1,6 +1,8 @@
+# Camera Buying Guide for FTC - By Aarav J.
 
 **Region:** India  
 **Prepared:** 22 October 2026
+**Prepared by:** Aarav J.
 
 A webcam's best choice depends on your budget and intended use. For video calls, coding demonstrations, robotics projects, and streaming, 1080p Full HD is a sensible starting point.
 
