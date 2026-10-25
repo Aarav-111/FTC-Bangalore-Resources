@@ -1,4 +1,4 @@
-# V2 Shooter: BOM and 3D Printing Guide
+# Shooter: BOM and 3D Printing Guide
 
 ## Bill of Materials
 
