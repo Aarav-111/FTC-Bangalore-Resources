@@ -3,10 +3,10 @@
 ## Bill of Materials
 
 <ol type="a">
-<li>1x 3D printed shooter mechanism by RF Jaising by ProLabs Robotics</li>
-<li>Zip ties</li>
-<li>Rubber bands</li>
-<li>Super glue (optional)</li>
+<li>3D printed shooter mechanism by RF Jaising by ProLabs Robotics x1</li>
+<li>Zip ties x4</li>
+<li>Rubber bands x4</li>
+<li>Super glue (optional) x1</li>
 </ol>
 
 ## Assembly
@@ -23,4 +23,12 @@ Why: printing sideways keeps the main shooter curve smooth. A rough curve will c
 
 ### Supports
 
-Do not use any supports.
+Do not use any supports while 3D printing.
+
+For more info, 
+
+Contact: Prolabs Robotics (the company behind the development of this)
+
+email: ProlabsRobotics@gmail.com
+Founder Email: aaravjaisingh@gmail.com
+Phone: +91 90364 49179
