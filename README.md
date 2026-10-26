@@ -54,6 +54,9 @@ This repository puts tested designs, code, and strategy notes in one place. The 
 | Precise Shooter Mechanism | A highly accurate shooter design with documentation |
 | Shooting and Intake Guide | Strategy notes on how to design and build both systems |
 | FTC Camera Code | Vision code with AprilTag support for precise positioning |
+| Camera Buying Guide | Webcam comparison for AprilTag detection, with India prices |
+| Shooter BOM and 3D Files | Bill of materials, print settings, and V1 and V2 3D files |
+| Shooter Assembly Guide | Step by step PDF to assemble the shooter |
 | Help Forum | A place to ask questions and get support |
 
 ---
@@ -63,15 +66,21 @@ This repository puts tested designs, code, and strategy notes in one place. The 
 ```
 FTC-Bangalore-Resources/
 ├── assets/
-│   └── banner.svg                     # Images used in this README
+│ └── banner.svg # Images used in this README
 ├── FTC Camera/
-│   └── FTC-camera(v1).py              # Camera + AprilTag positioning code
+│ ├── FTC-camera(v1).py # Camera + AprilTag positioning code
+│ └── Camera buying Guide.md # Webcam buying guide for AprilTags
 ├── FTC Docs by Aarav Jaisingh/
-│   └── Shooting and intake mechanism  # Strategy guide for shooter and intake
+│ └── FTC_Shooting_and_Intake_Mechanism.pdf # Strategy guide for shooter and intake
 ├── FTC precise shooting mechanism/
-│   └── Documentation                  # Build docs for the precise shooter
-├── FTC chassis options                # Chassis design options
-├── Help forum                         # Questions and support
+│ ├── BOM & 3D printing Guide.md # Parts list and print settings
+│ ├── FTC Shooting and Intake Mechanism Theory.pdf # Theory behind the design
+│ ├── V1 shooter 3D files/ # V1 shooter .3mf files
+│ └── V2 Shooter 3D files/ # V2 full assembly .stl
+├── Instruction Guides/
+│ └── Shooter_Assembly_Guide.pdf # Shooter assembly steps
+├── FTC chassis options # Chassis design options
+├── Help forum # Questions and support
 ├── LICENSE
 └── README.md
 ```
@@ -81,17 +90,20 @@ FTC-Bangalore-Resources/
 | Folder / File | Use It For |
 |---|---|
 | [FTC Camera](./FTC%20Camera) | AprilTag codes and camera setup for precise positioning |
+| [Camera buying Guide](./FTC%20Camera/Camera%20buying%20Guide.md) | Choosing a webcam for AprilTag detection |
 | [FTC Docs by Aarav Jaisingh](./FTC%20Docs%20by%20Aarav%20Jaisingh) | Shooting and intake strategy guide |
-| [FTC precise shooting mechanism](./FTC%20precise%20shooting%20mechanism) | Step by step shooter documentation |
+| [FTC precise shooting mechanism](./FTC%20precise%20shooting%20mechanism) | Shooter theory, 3D files (V1 and V2), and print guide |
+| [BOM & 3D printing Guide](./FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md) | Parts list and print settings for the V2 shooter |
+| [Instruction Guides](./Instruction%20Guides) | Step by step shooter assembly guide (PDF) |
 | [FTC chassis options](./FTC%20chassis%20options) | Picking the right chassis |
 | [Help forum](./Help%20forum) | Getting help from the community |
 
 ### Suggested Path for New Teams
 
 1. **Start with the chassis.** Open `FTC chassis options` and pick a base.
-2. **Build the shooter.** Follow `FTC precise shooting mechanism/Documentation`.
+2. **Build the shooter.** Print the parts using the `BOM & 3D printing Guide`, then follow `Instruction Guides/Shooter_Assembly_Guide.pdf`.
 3. **Plan intake and scoring.** Read the guide in `FTC Docs by Aarav Jaisingh`.
-4. **Add vision.** Use `FTC Camera/FTC-camera(v1).py` for AprilTag positioning.
+4. **Add vision.** Pick a webcam with the `Camera buying Guide`, then use `FTC Camera/FTC-camera(v1).py` for AprilTag positioning.
 5. **Stuck?** Check the `Help forum`.
 
 ---
@@ -133,12 +145,29 @@ The chassis is the foundation of your robot. A weak or poorly planned chassis wi
 
 ### Precise Shooting Mechanism
 
-The shooter design in `FTC precise shooting mechanism` focuses on repeatability. A shooter that scores 9 out of 10 times is worth more than a fast shooter that scores 5 out of 10. The documentation covers:
+The shooter design in `FTC precise shooting mechanism` focuses on repeatability. A shooter that scores 9 out of 10 times is worth more than a fast shooter that scores 5 out of 10. The folder covers:
 
 - Flywheel setup and why speed control matters
 - How to keep the launch angle consistent
 - Feeding game elements smoothly into the shooter
 - Tuning and testing to improve accuracy
+
+What is inside:
+
+| File / Folder | What It Is |
+|---|---|
+| `FTC Shooting and Intake Mechanism Theory.pdf` | Theory behind the shooter and intake design |
+| `V1 shooter 3D files` | V1 parts as .3mf files (base, stand, main, disk, L brackets, storage) |
+| `V2 Shooter 3D files` | V2 full assembly as a single .stl file |
+| `BOM & 3D printing Guide.md` | Parts list and 3D printing settings |
+| `Instruction Guides/Shooter_Assembly_Guide.pdf` | Step by step assembly |
+
+**V2 bill of materials:** 1 printed shooter, 4 zip ties, 4 rubber bands, 1 optional super glue.
+
+**3D printing tips:**
+
+- Print the shooter sideways. This keeps the main shooter curve smooth. A rough curve causes shooting problems.
+- Do not use supports.
 
 ### FTC Camera and AprilTags
 
@@ -149,6 +178,8 @@ AprilTags are square markers placed on the field. A camera on your robot can det
 - Use that position to aim, align, and drive more accurately
 
 This is especially useful during the autonomous period, where small errors in position can cost a lot of points.
+
+Not sure which camera to buy? The [Camera buying Guide](./FTC%20Camera/Camera%20buying%20Guide.md) compares four webcams available in India, from the budget BigPassport Pro-Live N3 (about Rs 999) to the Logitech C920 HD Pro. Its pick: the C920 for the best clarity and focus, and the Brio 100 as a cost effective 1080p option. Tip: lower the resolution in code (720p or 480p) to keep a stable 30 FPS loop on the Control Hub.
 
 ---
 
@@ -214,6 +245,10 @@ Please keep files organised in the existing folder structure and use simple, cle
 |---|---|
 | More chassis CAD files | Planned |
 | Improved AprilTag code (v2) | Planned |
+| V2 shooter 3D files | Done |
+| Shooter BOM and printing guide | Done |
+| Shooter assembly guide | Done |
+| AprilTag camera buying guide | Done |
 | Intake mechanism documentation | Planned |
 | Autonomous path examples | Planned |
 | Video build guides | Planned |
