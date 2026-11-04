@@ -16,7 +16,7 @@ Sheet hole -> zip tie loop -> rubber band -> zip tie loop -> rail guard hole
 
 ## Assembly
 
-A step-by-step visual guide with 3D views is available: [Instruction Guide]()
+A step-by-step visual guide with 3D views is available: [Instruction Guide](https://github.com/Aarav-111/FTC-Bangalore-Resources/blob/main/FTC%20precise%20shooting%20mechanism/V2_flexplate_build_guide.pdf)
 
 Quick steps:
 1. Print the V2 rail guard and the Flex Sheet (settings below).
