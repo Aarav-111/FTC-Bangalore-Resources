@@ -2,7 +2,17 @@
 
 **V2 Rail Guard + Prolabs Flex Sheet**, by Aarav Jaisingh, Prolabs Robotics. For the goBILDA FTC StarterBot 2026-27 (BIOBUZZ).
 
-> **NOT ROBOT TESTED.** Everything here is checked in CAD only. Updated 13 Nov 2026: plate 368 fix, V2 mounting, corrected V2 hole positions, fit check.
+> **NOT ROBOT TESTED.** Everything here is checked in CAD only. Updated 15 Nov 2026: only the 3 print files kept, simulator removed. 13 Nov 2026: plate 368 fix, V2 mounting, corrected V2 hole positions, fit check.
+
+## What to print (3 files)
+
+| # | File | Part | Size | Qty |
+|---|---|---|---|---|
+| 1 | `FTC Shooter V2 Rail Guard.stl` | V2 rail guard | about 129 x 149 x 88mm | 1 |
+| 2 | `prolabs_plain_sheet_0p2.stl` | Prolabs Flex Sheet | 88 x 104 x 0.2mm | 1 |
+| 3 | `plate_368_cut_5x5.stl` | Plate 368 replacement | 40 x 40 x 1.5mm | 1 |
+
+All at **100% infill**. These are the only files in the folder.
 
 ## Bill of Materials
 
@@ -15,7 +25,6 @@
 | e | Rubber bands (all the same size) | 6 | 4 for the sheet chains + 2 to mount V2 (1 per side) |
 | f | Super glue, thin CA (+ CA primer for PETG) | 1 | Zip tie locks only. Optional |
 
-Optional: `plate_368_5x6_trim.stl` (40 x 48mm, 1 extra row added downward, trim to fit). STEP files for both plates are in the same folder.
 
 ### How they connect (2 chains per side, 4 in total)
 
@@ -31,7 +40,6 @@ Kit plate 368 is the **back wall of the left servo box**, between plates 367 (le
 |---|---|
 | **A. Print (recommended)** | Print `plate_368_cut_5x5.stl`: 100% infill, flat on the bed |
 | B. Cut the kit plate | Cut **56mm (7 hole rows)** off the channel end. Keep the end at plate 367 |
-| C. 5x6 trim version | Print `plate_368_5x6_trim.stl` and trim the extra row |
 
 Keep the **left edge against plate 367**. The POLLEN ball then has **4mm of clearance**.
 
@@ -42,9 +50,7 @@ Keep the **left edge against plate 367**. The POLLEN ball then has **4mm of clea
 | All 3D files (folder) | [V2 Shooter 3D files](https://github.com/Aarav-111/FTC-Bangalore-Resources/tree/main/FTC%20precise%20shooting%20mechanism/V2%20Shooter%203D%20files) |
 | V2 rail guard | [FTC Shooter V2 Rail Guard.stl](https://github.com/Aarav-111/FTC-Bangalore-Resources/raw/main/FTC%20precise%20shooting%20mechanism/V2%20Shooter%203D%20files/FTC%20Shooter%20V2%20Rail%20Guard.stl) |
 | Flex Sheet | [prolabs_plain_sheet_0p2.stl](https://github.com/Aarav-111/FTC-Bangalore-Resources/raw/main/FTC%20precise%20shooting%20mechanism/V2%20Shooter%203D%20files/prolabs_plain_sheet_0p2.stl) |
-| Plate 368 (5x5) | [plate_368_cut_5x5.stl](https://github.com/Aarav-111/FTC-Bangalore-Resources/raw/main/FTC%20precise%20shooting%20mechanism/V2%20Shooter%203D%20files/plate_368_cut_5x5.stl) / [STEP](https://github.com/Aarav-111/FTC-Bangalore-Resources/raw/main/FTC%20precise%20shooting%20mechanism/V2%20Shooter%203D%20files/plate_368_cut_5x5.step) |
-| Plate 368 (5x6 trim) | [plate_368_5x6_trim.stl](https://github.com/Aarav-111/FTC-Bangalore-Resources/raw/main/FTC%20precise%20shooting%20mechanism/V2%20Shooter%203D%20files/plate_368_5x6_trim.stl) / [STEP](https://github.com/Aarav-111/FTC-Bangalore-Resources/raw/main/FTC%20precise%20shooting%20mechanism/V2%20Shooter%203D%20files/plate_368_5x6_trim.step) |
-| 3D simulator (download, open in Chrome or Safari) | [V2_shooter_simulator.html](https://github.com/Aarav-111/FTC-Bangalore-Resources/raw/main/FTC%20precise%20shooting%20mechanism/V2%20Shooter%203D%20files/V2_shooter_simulator.html) |
+| Plate 368 (5x5) | [plate_368_cut_5x5.stl](https://github.com/Aarav-111/FTC-Bangalore-Resources/raw/main/FTC%20precise%20shooting%20mechanism/V2%20Shooter%203D%20files/plate_368_cut_5x5.stl) |
 
 ## Assembly
 
