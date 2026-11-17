@@ -54,7 +54,7 @@ Keep the **left edge against plate 367**. The POLLEN ball then has **4mm of clea
 
 ## Assembly
 
-A step-by-step visual guide with 3D views is available: [Instruction Guide](https://github.com/Aarav-111/FTC-Bangalore-Resources/blob/main/FTC%20precise%20shooting%20mechanism/V2_flexplate_build_guide.pdf)
+Main assembly guide: [V2 Shooting Assembly Guide](https://github.com/Aarav-111/FTC-Bangalore-Resources/blob/main/FTC%20precise%20shooting%20mechanism/V2%20Shooting%20Assembly%20Guide.pdf). Older detailed guide: [V2 flexplate build guide](https://github.com/Aarav-111/FTC-Bangalore-Resources/blob/main/FTC%20precise%20shooting%20mechanism/V2_flexplate_build_guide.pdf)
 
 Quick steps:
 1. Print the V2 rail guard, the Flex Sheet and plate 368 (settings below).

@@ -56,7 +56,8 @@ This repository puts tested designs, code, and strategy notes in one place. The 
 | FTC Camera Code | Vision code with AprilTag support for precise positioning |
 | Camera Buying Guide | Webcam comparison for AprilTag detection, with India prices |
 | Shooter BOM and 3D Files | Bill of materials, print settings, and the 3 V2 print files |
-| V2 Build Guide | Step by step PDF to build and fit the V2 shooter |
+| V2 Shooting Assembly Guide | Main assembly guide for the V2 Shooting Assembly kit (PDF) |
+| V2 Build Guide | Older detailed build guide with fit checks |
 | Help Forum | A place to ask questions and get support |
 
 ---
@@ -75,7 +76,9 @@ FTC-Bangalore-Resources/
 ├── FTC precise shooting mechanism/
 │ ├── BOM & 3D printing Guide.md # Parts list and print settings
 │ ├── FTC Shooting and Intake Mechanism Theory.pdf # Theory behind the design
-│ ├── V2_flexplate_build_guide.pdf # V2 step by step build guide
+│ ├── V2 Shooting Assembly Guide.pdf # Main assembly guide (kit)
+│ ├── V2 Shooting Assembly Guide.html # Source of the main assembly guide
+│ ├── V2_flexplate_build_guide.pdf # Older detailed build guide
 │ └── V2 Shooter 3D files/ # The 3 files to print
 │ ├── FTC Shooter V2 Rail Guard.stl
 │ ├── prolabs_plain_sheet_0p2.stl
@@ -97,14 +100,15 @@ FTC-Bangalore-Resources/
 | [FTC precise shooting mechanism](./FTC%20precise%20shooting%20mechanism) | Shooter theory, V2 print files, and guides |
 | [V2 Shooter 3D files](./FTC%20precise%20shooting%20mechanism/V2%20Shooter%203D%20files) | The 3 files to print |
 | [BOM & 3D printing Guide](./FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md) | Parts list and print settings for the V2 shooter |
-| [V2 build guide](./FTC%20precise%20shooting%20mechanism/V2_flexplate_build_guide.pdf) | Step by step V2 shooter build guide (PDF) |
+| **[V2 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V2%20Shooting%20Assembly%20Guide.pdf)** | **Main assembly guide** for the V2 Shooting Assembly kit (PDF) |
+| [V2 build guide](./FTC%20precise%20shooting%20mechanism/V2_flexplate_build_guide.pdf) | Older detailed build guide with fit checks (PDF) |
 | [FTC chassis options](./FTC%20chassis%20options) | Picking the right chassis |
 | [Help forum](./Help%20forum) | Getting help from the community |
 
 ### Suggested Path for New Teams
 
 1. **Start with the chassis.** Open `FTC chassis options` and pick a base.
-2. **Build the shooter.** Print the parts using the `BOM & 3D printing Guide`, then follow `FTC precise shooting mechanism/V2_flexplate_build_guide.pdf`.
+2. **Build the shooter.** Print the parts using the `BOM & 3D printing Guide`, then follow the main assembly guide: [V2 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V2%20Shooting%20Assembly%20Guide.pdf).
 3. **Plan intake and scoring.** Read the guide in `FTC Docs by Aarav Jaisingh`.
 4. **Add vision.** Pick a webcam with the `Camera buying Guide`, then use `FTC Camera/FTC-camera(v1).py` for AprilTag positioning.
 5. **Stuck?** Check the `Help forum`.
@@ -162,7 +166,8 @@ What is inside:
 | `FTC Shooting and Intake Mechanism Theory.pdf` | Theory behind the shooter and intake design |
 | `V2 Shooter 3D files` | The 3 files to print (see below) |
 | `BOM & 3D printing Guide.md` | Parts list and 3D printing settings |
-| `V2_flexplate_build_guide.pdf` | Step by step build, fit checks and plate 368 fix |
+| `V2 Shooting Assembly Guide.pdf` | **Main assembly guide** for the V2 Shooting Assembly kit |
+| `V2_flexplate_build_guide.pdf` | Older build guide with fit checks and plate 368 fix |
 
 **What to print (V2):** 1 of each, all at 100% infill.
 
@@ -261,6 +266,7 @@ Please keep files organised in the existing folder structure and use simple, cle
 | V2 shooter 3D files | Done |
 | Shooter BOM and printing guide | Done |
 | V2 build guide (flex sheet + plate 368 fix) | Done |
+| V2 Shooting Assembly kit guide | Done |
 | AprilTag camera buying guide | Done |
 | Intake mechanism documentation | Planned |
 | Autonomous path examples | Planned |
