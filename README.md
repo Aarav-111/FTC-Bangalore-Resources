@@ -199,6 +199,8 @@ This is especially useful during the autonomous period, where small errors in po
 
 Not sure which camera to buy? The [Camera buying Guide](./FTC%20Camera/Camera%20buying%20Guide.md) compares four webcams available in India, from the budget BigPassport Pro-Live N3 (about Rs 999) to the Logitech C920 HD Pro. Its pick: the C920 for the best clarity and focus, and the Brio 100 as a cost effective 1080p option. Tip: lower the resolution in code (720p or 480p) to keep a stable 30 FPS loop on the Control Hub.
 
+Ready to put the camera on the robot? The [Camera Integration Plan](./FTC%20Camera/Camera%20Integration%20Plan.md) explains how to move from the Python app to Java on the FTC SDK (VisionPortal and AprilTag clusters), with a starter OpMode, [`CameraAimTeleOp.java`](./FTC%20Camera/CameraAimTeleOp.java), for auto-aim and shooter speed from distance. Not robot tested yet.
+
 ---
 
 ## Strategy Guide Overview
