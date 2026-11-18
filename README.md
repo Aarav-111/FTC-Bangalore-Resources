@@ -56,7 +56,7 @@ This repository puts tested designs, code, and strategy notes in one place. The 
 | FTC Camera Code | Vision code with AprilTag support for precise positioning |
 | Camera Buying Guide | Webcam comparison for AprilTag detection, with India prices |
 | Shooter BOM and 3D Files | Bill of materials, print settings, and the 3 V2 print files |
-| V2 Shooting Assembly Guide | Main assembly guide for the V2 Shooting Assembly kit (PDF) |
+| V2 Shooting Assembly Guide | Main assembly guide for the shooter upgrade kit, V2 and V3 (PDF) |
 | V2 Build Guide | Older detailed build guide with fit checks |
 | Help Forum | A place to ask questions and get support |
 
@@ -100,7 +100,7 @@ FTC-Bangalore-Resources/
 | [FTC precise shooting mechanism](./FTC%20precise%20shooting%20mechanism) | Shooter theory, V2 print files, and guides |
 | [V2 Shooter 3D files](./FTC%20precise%20shooting%20mechanism/V2%20Shooter%203D%20files) | The 3 files to print |
 | [BOM & 3D printing Guide](./FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md) | Parts list and print settings for the V2 shooter |
-| **[V2 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V2%20Shooting%20Assembly%20Guide.pdf)** | **Main assembly guide** for the V2 Shooting Assembly kit (PDF) |
+| **[V2 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V2%20Shooting%20Assembly%20Guide.pdf)** | **Main assembly guide** for the shooter upgrade kit, V2 and V3 (PDF) |
 | [V2 build guide](./FTC%20precise%20shooting%20mechanism/V2_flexplate_build_guide.pdf) | Older detailed build guide with fit checks (PDF) |
 | [FTC chassis options](./FTC%20chassis%20options) | Picking the right chassis |
 | [Help forum](./Help%20forum) | Getting help from the community |
