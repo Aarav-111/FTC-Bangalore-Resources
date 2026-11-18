@@ -32,7 +32,7 @@ The shooter upgrade kit is now **V3**. Here is what changed:
 | 88mm channel gap step | Set U-channels 316 and 317 to exactly 88mm apart, measured at 3 heights |
 | Intake plate tilt step | Raise the back of the intake plate a little (about 3 degrees, check on your robot) |
 | Interactive simulator | [ftc-shooter-interactive-guide.netlify.app](https://ftc-shooter-interactive-guide.netlify.app/) (compares V3 with the older V2) |
-| Testing videos and photos | New folder [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos), coming soon |
+| Testing videos and photos | New folder [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos), with a photo of the finished V3 shooter on the robot. Testing videos coming soon |
 
 ---
 
@@ -102,7 +102,7 @@ FTC-Bangalore-Resources/
 │ ├── prolabs_plain_sheet_0p2.stl
 │ ├── plate_368_cut_5x5.stl
 │ ├── Older versions/ # FTC Shooter V2 Rail Guard.stl (not in the kit)
-│ └── Testing videos and photos/ # Coming soon
+│ └── Testing videos and photos/ # Photo of the finished V3 shooter. Testing videos coming soon
 ├── FTC chassis options # Chassis design options
 ├── Help forum # Questions and support
 ├── LICENSE
@@ -118,7 +118,7 @@ FTC-Bangalore-Resources/
 | [FTC Docs by Aarav Jaisingh](./FTC%20Docs%20by%20Aarav%20Jaisingh) | Shooting and intake strategy guide |
 | [FTC precise shooting mechanism](./FTC%20precise%20shooting%20mechanism) | Shooter theory, V3 print files, and guides |
 | [V3 Shooter 3D files](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files) | The 3 files to print |
-| [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) | Testing videos and assembly photos (coming soon) |
+| [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) | Photo of the finished V3 shooter on the robot. Testing videos coming soon |
 | [BOM & 3D printing Guide](./FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md) | Parts list and print settings for the V3 shooter |
 | **[V3 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf)** | **Main assembly guide** for the V3 shooter upgrade kit (PDF) |
 | [V2 build guide](./FTC%20precise%20shooting%20mechanism/V2_flexplate_build_guide.pdf) | Older detailed build guide (V2) with fit checks (PDF) |
@@ -291,7 +291,7 @@ Please keep files organised in the existing folder structure and use simple, cle
 | Shooter BOM and printing guide | Done |
 | V2 build guide (flex sheet + plate 368 fix) | Done |
 | V3 Shooting Assembly kit guide | Done |
-| Testing videos and assembly photos | Coming soon |
+| Testing videos and assembly photos | Photo of the finished V3 shooter is in [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos). Testing videos coming soon |
 | AprilTag camera buying guide | Done |
 | Intake mechanism documentation | Planned |
 | Autonomous path examples | Planned |

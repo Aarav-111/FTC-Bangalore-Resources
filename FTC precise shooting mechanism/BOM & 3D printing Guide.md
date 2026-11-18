@@ -57,7 +57,7 @@ Keep the **left edge against plate 367**. The POLLEN ball then has **4mm of clea
 | Flex Sheet | [prolabs_plain_sheet_0p2.stl](./V3%20Shooter%203D%20files/prolabs_plain_sheet_0p2.stl) |
 | Plate 368 (5x5) | [plate_368_cut_5x5.stl](./V3%20Shooter%203D%20files/plate_368_cut_5x5.stl) |
 | V2 rail guard (older version, not in the kit) | [FTC Shooter V2 Rail Guard.stl](./V3%20Shooter%203D%20files/Older%20versions/FTC%20Shooter%20V2%20Rail%20Guard.stl) |
-| Testing videos and photos | [Testing videos and photos](./V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) (coming soon) |
+| Testing videos and photos | [Testing videos and photos](./V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) (photo of the finished V3 shooter; testing videos coming soon) |
 
 ## Assembly
 
