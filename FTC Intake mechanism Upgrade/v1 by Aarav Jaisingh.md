@@ -13,8 +13,8 @@ This folder is the start of our intake mechanism upgrade, designed by Aarav Jais
 
 ## Preview
 
-![Intake Upgrade v1, isometric view](./intake_v1_iso.png)
+![Intake Upgrade v1, standing upright to print](./intake_v1_iso.png)
 
-The part is a 180 mm long roller, about 30 mm in diameter, with a hexagonal hole (7.00 mm across flats) through its full length. Please see the [Printing Guide](./Printing%20Guide.md) for the full measurements and the print settings we recommend (100% infill).
+The part is a 180 mm long roller, about 30 mm in diameter, with a hexagonal hole (7.00 mm across flats) through its full length. Print it standing on one flat end, so it is 180 mm tall. Please see the [Printing Guide](./Printing%20Guide.md) for the full measurements and the print settings we recommend (100% infill, 3 or 4 walls, a 5 to 8 mm brim, and no supports).
 
 The size notes for the hexagon, the 30 mm roller, the foam, and the 48 mm stock wheel are in [Intake Calculations.md](./Intake%20Calculations.md). How the roller is mounted on the robot is to confirm with Aarav.

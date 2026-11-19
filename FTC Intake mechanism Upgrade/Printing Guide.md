@@ -6,9 +6,9 @@ The notes below describe the shape of the part and how we recommend printing it.
 
 ## Previews
 
-![Intake Upgrade v1, isometric view](./intake_v1_iso.png)
+![Intake Upgrade v1, standing upright to print](./intake_v1_iso.png)
 
-![End view, looking along the 180 mm length](./intake_v1_end.png)
+![End view, looking down the hex hole](./intake_v1_end.png)
 
 ## What we measured
 
@@ -16,9 +16,9 @@ We loaded the 3MF in millimetres, as the file itself specifies. The mesh is wate
 
 | Measurement | Value |
 |---|---|
-| Length | 180.00 mm |
-| Outer width (X) | 29.97 mm |
-| Outer height (Z) | 29.99 mm |
+| Length (print height) | 180.00 mm |
+| Outer diameter (X) | 29.97 mm |
+| Outer diameter (Y) | 29.99 mm |
 | Outer diameter (designed) | about 30 mm |
 | Hex hole, across flats | 7.00 mm |
 | Hex hole, side length | 4.04 mm |
@@ -32,12 +32,25 @@ A small note: the hex hole is about 0.06 mm off the centre line of the cylinder.
 
 ## Recommended orientation
 
-Print the roller lying on its side, with the long 180 mm axis along the bed, and one flat of the hex hole facing up (parallel to the bed). This is how the part was already placed in the 3MF, and the STL in this folder is already sitting this way (the bottom is at z = 0).
+Print the roller standing on one flat end, with the long axis straight up, so the part is 180 mm tall. The STL in this folder is already standing this way (the bottom is at z = 0, the top is at z = 180 mm). If your slicer lays it down, rotate it so it stands on a flat end.
 
-Why we recommend this:
+Why we print it this way:
 
-- A flat of the hex hole is on top, so the printer only has to bridge a short 4.04 mm flat. That is a small bridge, so we do not need supports inside the hole.
-- Printing it standing on one end would also avoid supports (the hole would be vertical), but the part is 180 mm tall, which is the full height of a Bambu Lab A1 mini. That is a tight fit. The layers would also run across the roller, which is weaker if the shaft bends.
+- Each layer is a true circle, so the outer surface comes out round.
+- The hex hole prints as a clean vertical hole, with no bridge and no supports.
+
+### Risks, and how we reduce them
+
+A tall, thin part (180 mm tall and about 30 mm across) can wobble or tip as it gets higher. To keep it stable:
+
+- Use a 5 to 8 mm brim, so the base has more grip on the bed.
+- Clean the bed, or use a glue stick, so the first layer holds well.
+- Slow the outer walls, and reduce speed in the upper half of the print.
+- Print one roller at a time, so the nozzle does not travel between parts and knock the roller over.
+
+### Build height
+
+The printer needs at least 180 mm of Z height. A Bambu Lab A1 mini is exactly 180 mm tall, so this part is right at the limit. Check the height in the slicer before we start, including the brim, and make sure the nozzle and the lid have room.
 
 ## Print settings
 
@@ -45,15 +58,18 @@ The 3MF was a Bambu Studio project for a Bambu Lab A1 mini, 0.4 mm nozzle, "0.20
 
 | Setting | Our recommendation | Notes |
 |---|---|---|
+| Orientation | Standing on one flat end, 180 mm tall | Already set in the STL |
 | Material | PETG or PLA | See the material section below |
 | Layer height | 0.2 mm | Matches the 3MF |
 | Walls | 3 or 4 | The 3MF had 2. Extra walls help the hex hole hold its shape |
 | Infill | 100% (fully solid) | Please change this. The 3MF still has 15% |
 | Infill pattern | gyroid or grid | At 100% the pattern matters less |
-| Supports | None | The top of the hex hole is a short 4 mm bridge |
-| Brim | None on a 180 mm bed. A small brim is fine on a larger bed | See the bed size warning |
+| Supports | None | The hex hole is vertical, so it needs no bridge and no supports |
+| Brim | 5 to 8 mm | Helps a tall, thin part stay on the bed |
+| Seam | Aligned or rear (optional) | Keeps the join line in one place down the side |
 | Bed | Textured PEI, if you have it | As in the 3MF |
-| First layer | Slow, with a good squish | The part is long and skinny, so bed adhesion matters |
+| First layer | Slow, with a good squish | Clean the bed, or use a glue stick |
+| Outer walls and upper half | Slower than the default | Reduces wobble as the part gets taller |
 | Nozzle | 0.4 mm | As in the 3MF |
 
 ## Material and temperatures
@@ -65,20 +81,9 @@ The 3MF has both PLA and PETG profiles loaded, and it looks like the plate was s
 | PETG | 245 C | 70 C | Tougher, and a bit more heat resistant. Better if the roller takes load or wear |
 | PLA | 220 C | 65 C | Easier to print, and easier to get a clean first layer |
 
-## Bed size warning
-
-The part is 180.00 mm long. A Bambu Lab A1 mini bed is 180 x 180 mm, so the part uses the full length of that bed. In the 3MF it was already placed to span the bed from one edge to the other.
-
-If we print on an A1 mini:
-
-- Do not add a brim or a skirt. There is no extra room.
-- Align the long axis with the bed, not at an angle.
-- Check that the first layer does not get clipped at the ends.
-- A larger printer (for example an A1, P1P or X1, with a 256 mm bed) is more comfortable.
-
 ## Filament use (estimated)
 
-These numbers are from the solid mesh volume (119.27 cm3) at 100% infill. They do not include purge, prime, or a brim, so the real use will be a little higher.
+These numbers are from the solid mesh volume (119.27 cm3) at 100% infill. They do not include purge, prime, or the brim, so the real use will be a little higher.
 
 | Material | Density used | Estimated mass |
 |---|---|---|
@@ -87,14 +92,15 @@ These numbers are from the solid mesh volume (119.27 cm3) at 100% infill. They d
 
 ## After printing: post-processing and fit check
 
-1. Let the part cool on the bed before we remove it, so it does not bend.
-2. Check the length with a ruler or calipers. We want 180 mm.
-3. Check the outer diameter. We want about 30 mm.
-4. Check the hex hole, across flats, at both ends. We want about 7.00 mm.
-5. Test that the hex shaft (exact size to confirm with Aarav) slides through the full length without forcing it. If the hole is tight, we can lightly sand the flats. Do not open it out so much that the shaft spins.
-6. Look down the hole to check it is straight.
-7. If we add foam around the roller, the planned sizes are in [Intake Calculations](./Intake%20Calculations.md). How the foam is fitted is to confirm with Aarav.
-8. Test the fit on the robot before we glue or pin anything. The mounting is to confirm with Aarav.
+1. Let the part cool on the bed before we remove it, so it does not bend or snap.
+2. Peel the brim off carefully, so we do not damage the base.
+3. Check the length with a ruler or calipers. We want 180 mm.
+4. Check the outer diameter. We want about 30 mm, and it should feel round.
+5. Check the hex hole, across flats, at both ends. We want about 7.00 mm.
+6. Test that the hex shaft (exact size to confirm with Aarav) slides through the full length without forcing it. If the hole is tight, we can lightly sand the flats. Do not open it out so much that the shaft spins.
+7. Look down the hole to check it is straight.
+8. If we add foam around the roller, the planned sizes are in [Intake Calculations](./Intake%20Calculations.md). How the foam is fitted is to confirm with Aarav.
+9. Test the fit on the robot before we glue or pin anything. The mounting is to confirm with Aarav.
 
 ## To confirm with Aarav
 
