@@ -76,6 +76,7 @@ This repository puts tested designs, code, and strategy notes in one place. The 
 | Camera Buying Guide | Webcam comparison for AprilTag detection, with India prices |
 | Shooter BOM and 3D Files | Bill of materials, print settings, and the 3 V3 print files |
 | V3 Shooting Assembly Guide | Main assembly guide for the V3 shooter upgrade kit (PDF) |
+| Intake mechanism Upgrade (v1) | v1 roller STL, printing guide, and intake calculations |
 | Help Forum | A place to ask questions and get support |
 
 ---
@@ -102,6 +103,12 @@ FTC-Bangalore-Resources/
 │ ├── plate_368_cut_5x5.stl
 │ ├── Older versions/ # FTC Shooter V2 Rail Guard.stl (not in the kit)
 │ └── Testing videos and photos/ # 5 photos and a walkaround video of the finished V3 shooter
+├── FTC Intake mechanism Upgrade/ # v1 intake roller, printing guide, calculations
+│ ├── v1 by Aarav Jaisingh.md # Start here
+│ ├── Intake Upgrade v1.stl # The part to print
+│ ├── Printing Guide.md # Print settings and fit check
+│ ├── Intake Calculations.md # Typed notes from the handwritten paper
+│ └── Intake calculations (handwritten).jpg
 ├── FTC chassis options # Chassis design options
 ├── Help forum # Questions and support
 ├── LICENSE
@@ -120,6 +127,7 @@ FTC-Bangalore-Resources/
 | [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) | Photos and a walkaround video of the finished V3 shooter on the robot |
 | [BOM & 3D printing Guide](./FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md) | Parts list and print settings for the V3 shooter |
 | **[V3 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf)** | **Main assembly guide** for the V3 shooter upgrade kit (PDF) |
+| [FTC Intake mechanism Upgrade](./FTC%20Intake%20mechanism%20Upgrade) | v1 intake roller STL, printing guide, and calculations |
 | [FTC chassis options](./FTC%20chassis%20options) | Picking the right chassis |
 | [Help forum](./Help%20forum) | Getting help from the community |
 
@@ -127,7 +135,7 @@ FTC-Bangalore-Resources/
 
 1. **Start with the chassis.** Open `FTC chassis options` and pick a base.
 2. **Build the shooter.** Print the parts using the `BOM & 3D printing Guide`, then follow the main assembly guide: [V3 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf).
-3. **Plan intake and scoring.** Read the guide in `FTC Docs by Aarav Jaisingh`.
+3. **Plan intake and scoring.** Read the guide in `FTC Docs by Aarav Jaisingh`. The v1 intake roller files are in [`FTC Intake mechanism Upgrade`](./FTC%20Intake%20mechanism%20Upgrade).
 4. **Add vision.** Pick a webcam with the `Camera buying Guide`, then use `FTC Camera/FTC-camera(v1).py` for AprilTag positioning.
 5. **Stuck?** Check the `Help forum`.
 
@@ -205,6 +213,12 @@ The older V2 rail guard (`Older versions/FTC Shooter V2 Rail Guard.stl`, about 1
 - Use 100% infill for every part.
 - Print the rail guard sideways. This keeps the main shooter curve smooth. A rough curve causes shooting problems. Do not use supports.
 - Print the flex sheet and plate 368 flat on the bed.
+
+### Intake mechanism Upgrade
+
+The `FTC Intake mechanism Upgrade` folder has the first files for an intake upgrade by Aarav Jaisingh. v1 is a 180 mm roller, about 30 mm in diameter, with a 7 mm hexagonal hole through its length. Start with [v1 by Aarav Jaisingh](./FTC%20Intake%20mechanism%20Upgrade/v1%20by%20Aarav%20Jaisingh.md). The [Printing Guide](./FTC%20Intake%20mechanism%20Upgrade/Printing%20Guide.md) has the print settings (100% infill). [Intake Calculations](./FTC%20Intake%20mechanism%20Upgrade/Intake%20Calculations.md) walks through the handwritten size notes.
+
+How the roller is mounted on the robot is still to confirm.
 
 ### FTC Camera and AprilTags
 
@@ -289,7 +303,7 @@ Please keep files organised in the existing folder structure and use simple, cle
 | V3 Shooting Assembly kit guide | Done |
 | Testing videos and assembly photos | Photos and a walkaround video are in [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos). Shooting test videos planned |
 | AprilTag camera buying guide | Done |
-| Intake mechanism documentation | Planned |
+| Intake mechanism documentation | v1 STL, printing guide and calculations are in [FTC Intake mechanism Upgrade](./FTC%20Intake%20mechanism%20Upgrade). More to come |
 | Autonomous path examples | Planned |
 | Video build guides | Planned |
 
