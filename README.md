@@ -176,7 +176,7 @@ The chassis is the foundation of your robot. A weak or poorly planned chassis wi
 | Tank Drive | Strong pushing power, simple build | Rookie teams and defence |
 | Hybrid / Custom | Mix of speed and control | Teams with experience |
 
-For mecanum programming, see the [Mecanum Wheels Presentation](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pdf) (17 slides, also as [PowerPoint](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pptx) and [Google Slides](https://docs.google.com/presentation/d/10t6m5lrtCYghSzNBLcLgv_6zWi-kxssT0vhTHXqJd7Y/edit)).
+For mecanum programming, see the [Mecanum Wheels Presentation](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pdf) by Aarav J. (18 slides, now with a new "What are mecanum wheels?" slide, also as [PowerPoint](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pptx) and [Google Slides](https://docs.google.com/presentation/d/10t6m5lrtCYghSzNBLcLgv_6zWi-kxssT0vhTHXqJd7Y/edit)).
 
 ### Precise Shooting Mechanism
 
