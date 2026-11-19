@@ -18,21 +18,22 @@ This repository was started in Bangalore, but it is not just for Bangalore. It i
 
 ---
 
-## Very big change (18 Nov 2026)
+## Very big change (18 to 19 Nov 2026)
 
-The shooter upgrade kit is now **V3**. Here is what changed:
+The shooter upgrade kit is now **V3**, and both OP2 sheets are now fitted (one on each side). Here is what changed:
 
 | Change | Details |
 |---|---|
 | V2 renamed to V3 | The kit, folder and guide are now called V3: `V3 Shooter 3D files` and `V3 Shooting Assembly Guide` |
-| Kit is V3 only | The kit has 1 V3 main shooter, 2 Plate 368 (1 spare), 2 Prolabs OP2 sheets (1 spare), electrical tape, zip ties and a small bottle of super glue. V2 is an older version, not in the kit |
-| New assembly guide | [V3 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf): 26 pages, 15 steps, 3D pictures for every step |
-| Zip ties only | No rubber bands. 24 zip ties per robot. Tape goes only over the zip ties |
-| Super glue step | A few small drops fix the sheet front edge to the intake plate |
+| Kit is V3 only | The kit has 1 V3 main shooter, 2 Plate 368 (1 used, 1 spare), 2 Prolabs OP2 sheets (both used), electrical tape, zip ties and a small bottle of super glue. V2 is an older version, not in the kit |
+| Both OP2 sheets fitted (19 Nov) | One sheet on each side of the shooter intake. The inner corner of each sheet goes into the V3 slot and the rest turns out about 15 degrees, like a funnel, onto the intake plate. 4 zip ties per sheet at V3 holes 1 to 4. The old zip tie links are gone |
+| New assembly guide | [V3 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf): 27 pages, 15 steps, 3D pictures for every step and 5 real photos |
+| Zip ties only | No rubber bands. 16 zip ties per robot. Tape goes only over the zip ties |
+| Super glue step | A few small drops fix the front edge of each sheet to the intake plate |
 | 88mm channel gap step | Set U-channels 316 and 317 to exactly 88mm apart, measured at 3 heights |
 | Intake plate tilt step | Raise the back of the intake plate a little (about 3 degrees, check on your robot) |
 | Interactive simulator | [ftc-shooter-interactive-guide.netlify.app](https://ftc-shooter-interactive-guide.netlify.app/) (compares V3 with the older V2) |
-| Testing videos and photos | New folder [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos), with a photo of the finished V3 shooter on the robot. Testing videos coming soon |
+| Testing videos and photos | New folder [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos), with 5 photos of the finished V3 shooter and a short walkaround video. Shooting test videos will be added later |
 
 ---
 
@@ -75,7 +76,6 @@ This repository puts tested designs, code, and strategy notes in one place. The 
 | Camera Buying Guide | Webcam comparison for AprilTag detection, with India prices |
 | Shooter BOM and 3D Files | Bill of materials, print settings, and the 3 V3 print files |
 | V3 Shooting Assembly Guide | Main assembly guide for the V3 shooter upgrade kit (PDF) |
-| V2 Build Guide | Older detailed build guide (V2) with fit checks |
 | Help Forum | A place to ask questions and get support |
 
 ---
@@ -96,13 +96,12 @@ FTC-Bangalore-Resources/
 │ ├── FTC Shooting and Intake Mechanism Theory.pdf # Theory behind the design
 │ ├── V3 Shooting Assembly Guide.pdf # Main assembly guide (V3 kit)
 │ ├── V3 Shooting Assembly Guide.html # Source of the main assembly guide
-│ ├── V2_flexplate_build_guide.pdf # Older detailed build guide (V2)
 │ └── V3 Shooter 3D files/ # The 3 files to print
 │ ├── FTC Shooter V3 Rail Guard.stl # Main shooter (in the kit)
 │ ├── prolabs_plain_sheet_0p2.stl
 │ ├── plate_368_cut_5x5.stl
 │ ├── Older versions/ # FTC Shooter V2 Rail Guard.stl (not in the kit)
-│ └── Testing videos and photos/ # Photo of the finished V3 shooter. Testing videos coming soon
+│ └── Testing videos and photos/ # 5 photos and a walkaround video of the finished V3 shooter
 ├── FTC chassis options # Chassis design options
 ├── Help forum # Questions and support
 ├── LICENSE
@@ -118,10 +117,9 @@ FTC-Bangalore-Resources/
 | [FTC Docs by Aarav Jaisingh](./FTC%20Docs%20by%20Aarav%20Jaisingh) | Shooting and intake strategy guide |
 | [FTC precise shooting mechanism](./FTC%20precise%20shooting%20mechanism) | Shooter theory, V3 print files, and guides |
 | [V3 Shooter 3D files](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files) | The 3 files to print |
-| [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) | Photo of the finished V3 shooter on the robot. Testing videos coming soon |
+| [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) | Photos and a walkaround video of the finished V3 shooter on the robot |
 | [BOM & 3D printing Guide](./FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md) | Parts list and print settings for the V3 shooter |
 | **[V3 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf)** | **Main assembly guide** for the V3 shooter upgrade kit (PDF) |
-| [V2 build guide](./FTC%20precise%20shooting%20mechanism/V2_flexplate_build_guide.pdf) | Older detailed build guide (V2) with fit checks (PDF) |
 | [FTC chassis options](./FTC%20chassis%20options) | Picking the right chassis |
 | [Help forum](./Help%20forum) | Getting help from the community |
 
@@ -187,21 +185,20 @@ What is inside:
 | `V3 Shooter 3D files` | The 3 files to print (see below), plus `Older versions` and `Testing videos and photos` |
 | `BOM & 3D printing Guide.md` | Parts list and 3D printing settings |
 | `V3 Shooting Assembly Guide.pdf` | **Main assembly guide** for the V3 shooter upgrade kit |
-| `V2_flexplate_build_guide.pdf` | Older build guide (V2) with fit checks and plate 368 fix |
 
-**What to print (V3):** 1 of each, all at 100% infill.
+**What to print (V3):** all at 100% infill. Print 2 sheets, 1 of everything else.
 
 | # | File | Part | Size |
 |---|---|---|---|
 | 1 | `FTC Shooter V3 Rail Guard.stl` | V3 rail guard (main shooter) | about 217 x 88 x 116mm |
-| 2 | `prolabs_plain_sheet_0p2.stl` | Prolabs Flex Sheet | 88 x 104 x 0.2mm |
+| 2 | `prolabs_plain_sheet_0p2.stl` | Prolabs OP2 (Flex) Sheet, 2 per robot | 88 x 104 x 0.2mm |
 | 3 | `plate_368_cut_5x5.stl` | Plate 368 replacement | 40 x 40 x 1.5mm |
 
 The older V2 rail guard (`Older versions/FTC Shooter V2 Rail Guard.stl`, about 181 x 88 x 71mm) is not in the kit.
 
-**V3 bill of materials:** the 3 printed parts above, 24 zip ties (2.5mm wide), electrical tape and a small bottle of super glue. No rubber bands. The kit also has a spare plate 368 and a spare sheet. Full list in the BOM guide.
+**V3 bill of materials:** the printed parts above (2 sheets), 16 zip ties (2.5mm wide), electrical tape and a small bottle of super glue. No rubber bands. The kit also has a spare plate 368. Full list in the BOM guide.
 
-> Not robot tested yet. Checked in CAD only.
+> Built on a robot (see the photos), not shooting tested yet. Fit numbers are from CAD.
 
 **3D printing tips:**
 
@@ -289,9 +286,8 @@ Please keep files organised in the existing folder structure and use simple, cle
 | Improved AprilTag code (v2) | Planned |
 | V3 shooter 3D files | Done |
 | Shooter BOM and printing guide | Done |
-| V2 build guide (flex sheet + plate 368 fix) | Done |
 | V3 Shooting Assembly kit guide | Done |
-| Testing videos and assembly photos | Photo of the finished V3 shooter is in [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos). Testing videos coming soon |
+| Testing videos and assembly photos | Photos and a walkaround video are in [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos). Shooting test videos planned |
 | AprilTag camera buying guide | Done |
 | Intake mechanism documentation | Planned |
 | Autonomous path examples | Planned |

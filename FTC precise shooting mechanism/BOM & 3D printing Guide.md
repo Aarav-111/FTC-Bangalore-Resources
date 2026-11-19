@@ -1,41 +1,41 @@
 # V3 Shooter: BOM and 3D Printing Guide
 
-**V3 Rail Guard + Prolabs Flex Sheet**, by Aarav Jaisingh, Prolabs Robotics. For the goBILDA FTC StarterBot 2026-27 (BIOBUZZ).
+**V3 Rail Guard + 2 Prolabs OP2 (Flex) Sheets**, by Aarav Jaisingh, Prolabs Robotics. For the goBILDA FTC StarterBot 2026-27 (BIOBUZZ).
 
-> **NOT ROBOT TESTED.** Everything here is checked in CAD only. Updated 18 Nov 2026 (very big change): the kit is now **V3 only** (V2 is an older version, not in the kit), folders and guide renamed to V3, no rubber bands (zip ties only, 24 per robot), super glue fixes the sheet front edge to the intake plate, intake plate tilted up a little, U-channels 316 and 317 set to exactly 88mm. Earlier 18 Nov 2026: V3 rail guard added (test both V2 and V3, use the one that shoots best), 20 zip ties per robot, tape only over the zip ties. 15 Nov 2026: only the 3 print files kept, simulator removed. 13 Nov 2026: plate 368 fix, V2 mounting, corrected V2 hole positions, fit check.
+> **NOT SHOOTING TESTED YET.** The kit has been built on a robot (see the photos), but shooting has not been tested. Fit numbers below are from CAD. Updated 19 Nov 2026: **both OP2 sheets are now fitted**, one on each side of the shooter intake, angled out like a funnel (matches the real build photos). 16 zip ties per robot, no zip tie links. 18 Nov 2026 (very big change): the kit is now **V3 only** (V2 is an older version, not in the kit), no rubber bands, super glue on the sheet front edges, intake plate tilted up a little, U-channels 316 and 317 set to exactly 88mm.
 
 ## What to print (3 files)
 
 | # | File | Part | Size | Qty |
 |---|---|---|---|---|
 | 1 | `FTC Shooter V3 Rail Guard.stl` | V3 rail guard (main shooter): V2 shape + about 58mm straight top at about 55 deg | about 217 x 88 x 116mm | 1 |
-| 2 | `prolabs_plain_sheet_0p2.stl` | Prolabs Flex Sheet | 88 x 104 x 0.2mm | 1 |
+| 2 | `prolabs_plain_sheet_0p2.stl` | Prolabs OP2 (Flex) Sheet | 88 x 104 x 0.2mm | 2 |
 | 3 | `plate_368_cut_5x5.stl` | Plate 368 replacement | 40 x 40 x 1.5mm | 1 |
 | old | `Older versions/FTC Shooter V2 Rail Guard.stl` | V2 rail guard: **older version, not in the kit** | about 181 x 88 x 71mm | 0 |
 
 All at **100% infill**. V3 is the main shooter. It uses the same gap, slot and holes as the older V2.
 
-**One kit contains:** 1 V3 rail guard (main shooter), 2 Plate 368 (1 used, 1 spare), 2 Prolabs OP2 (Flex) sheets (1 used, 1 spare), 1 roll of electrical tape, zip ties and 1 small bottle of super glue. No rubber bands. No V2.
+**One kit contains:** 1 V3 rail guard (main shooter), 2 Plate 368 (1 used, 1 spare), 2 Prolabs OP2 (Flex) sheets (both used, one on each side), 1 roll of electrical tape, zip ties and 1 small bottle of super glue. No rubber bands. No V2.
 
 ## Bill of Materials
 
 | # | Part | Qty | File / notes |
 |---|------|-----|------|
 | a | 3D printed V3 shooter rail guard by Aarav Jaisingh, Prolabs Robotics (100% infill) | 1 | `FTC Shooter V3 Rail Guard.stl` |
-| b | 3D printed Prolabs Flex Sheet: 88 x 104 x 0.2mm, 143 holes (11 x 13, Ø4mm, 8mm grid) | 1 (+1 spare in the kit) | `prolabs_plain_sheet_0p2.stl` |
+| b | 3D printed Prolabs Flex Sheet: 88 x 104 x 0.2mm, 143 holes (11 x 13, Ø4mm, 8mm grid) | 2 (one left, one right) | `prolabs_plain_sheet_0p2.stl` |
 | c | **Plate 368 replacement**: 40 x 40 x 1.5mm, 25 holes (5 x 5, Ø4mm, 8mm grid, 4mm edge) | 1 (+1 spare in the kit) | `plate_368_cut_5x5.stl`, or cut the kit plate (see below) |
-| d | Zip ties, **2.5mm wide** (only 2.5mm ties pass through the 4mm holes) | 24 | 8 to tie the shooter to the U-channels, 4 to tie the sheet in the slot, 12 for the 4 sheet links (3 each). Pull every tie tight. **No rubber bands** |
+| d | Zip ties, **2.5mm wide** (only 2.5mm ties pass through the 4mm holes) | 16 | 8 to tie the shooter to the U-channels, 8 for the 2 sheets (4 each, at V3 holes 1 to 4). Pull every tie tight. **No rubber bands** |
 | e2 | Electrical tape, 18mm | 1 roll | Only over the zip ties, never straight onto V3 |
-| f | Super glue, small bottle (in the kit) | 1 | A few small drops to fix the sheet front edge to the intake plate (floor plate 375). Not on the bent part, the slot, the zip ties or the shooter |
+| f | Super glue, small bottle (in the kit) | 1 | A few small drops to fix the front edge of each sheet to the intake plate (floor plate 375). Not on the bent part, the slot, the zip ties or the shooter |
 
 
-### How they connect (2 zip tie links per side, 4 in total)
+### How the 2 sheets go on
 
-Sheet hole -> zip tie loop -> joining zip tie -> zip tie loop -> rail guard hole (holes 1 and 2)
+One sheet on each side of the shooter intake. The inner corner of each sheet slides 40mm into the V3 slot. The rest of the sheet turns out about 15 degrees, like a funnel, and lies on the intake plate. A V-shaped gap stays open in the middle.
 
-No rubber bands. Each link is 3 zip ties, about 46 to 48mm loop to loop. The joining tie goes about 110mm around, so use a long enough tie. Pull it snug, not so tight that the sheet lifts off the intake plate.
+Each sheet gets 4 zip ties, at V3 holes 1 to 4 on its side. Each tie goes down through the V3 hole and the sheet hole under it, then back up through a sheet hole just outside the V3 edge. No rubber bands, no links.
 
-Rail guard hole positions under the slot (same on V3 and the older V2): **y -32.5, -25.4, -18.3, -11.3, -4.2** (7.08mm pitch). The sheet is on an 8mm grid, so the holes are 0.1 to 2.7mm off. All 5 work with 2.5mm zip ties.
+Rail guard hole positions under the slot (same on V3 and the older V2): **y -32.5, -25.4, -18.3, -11.3, -4.2** (7.08mm pitch). The sheet is on an 8mm grid and turned, so a sheet hole may not sit right under a V3 hole. Move the sheet a little or use the nearest sheet hole.
 
 ## Plate 368 fix (needed)
 
@@ -54,29 +54,29 @@ Keep the **left edge against plate 367**. The POLLEN ball then has **4mm of clea
 |---|---|
 | All 3D files (folder) | [V3 Shooter 3D files](./V3%20Shooter%203D%20files) |
 | V3 rail guard (main) | [FTC Shooter V3 Rail Guard.stl](./V3%20Shooter%203D%20files/FTC%20Shooter%20V3%20Rail%20Guard.stl) |
-| Flex Sheet | [prolabs_plain_sheet_0p2.stl](./V3%20Shooter%203D%20files/prolabs_plain_sheet_0p2.stl) |
+| OP2 (Flex) Sheet, print 2 | [prolabs_plain_sheet_0p2.stl](./V3%20Shooter%203D%20files/prolabs_plain_sheet_0p2.stl) |
 | Plate 368 (5x5) | [plate_368_cut_5x5.stl](./V3%20Shooter%203D%20files/plate_368_cut_5x5.stl) |
 | V2 rail guard (older version, not in the kit) | [FTC Shooter V2 Rail Guard.stl](./V3%20Shooter%203D%20files/Older%20versions/FTC%20Shooter%20V2%20Rail%20Guard.stl) |
-| Testing videos and photos | [Testing videos and photos](./V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) (photo of the finished V3 shooter; testing videos coming soon) |
+| Testing videos and photos | [Testing videos and photos](./V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) (5 photos and a walkaround video of the finished V3 shooter) |
 
 ## Assembly
 
 Interactive 3D simulator (compares V3 with the older V2): [ftc-shooter-interactive-guide.netlify.app](https://ftc-shooter-interactive-guide.netlify.app/)
 
-Main assembly guide (V3, 26 pages, 15 steps): [V3 Shooting Assembly Guide](./V3%20Shooting%20Assembly%20Guide.pdf). Older detailed guide (V2): [V2 flexplate build guide](./V2_flexplate_build_guide.pdf)
+Main assembly guide (V3, 27 pages, 15 steps): [V3 Shooting Assembly Guide](./V3%20Shooting%20Assembly%20Guide.pdf)
 
 Quick steps (the main guide is the full, updated version):
-1. Print V3, the Flex Sheet and plate 368 (settings below), all at 100% infill.
+1. Print V3, 2 OP2 sheets and plate 368 (settings below), all at 100% infill.
 2. Remove hood E (part 374).
 3. Set the gap between U-channels 316 and 317 (the pillars beside the shooter) to **exactly 88mm**. Measure at the bottom, middle and top with a ruler. Loosen their screws, slide them sideways, tighten and measure again.
 4. Replace kit plate 368 with the 5x5 plate (or cut 7 hole rows off). Keep the left edge against 367.
 5. Tilt the intake plate (floor plate 375) up a little: raise the back edge (shooter end) about 4 to 5mm, about 3 deg more slope. Keep the front edge down. This is a CAD suggestion, check it on your robot and keep at least 5mm under the shooter. Use washers under the back screws if the holes don't allow it.
 6. Fit V3 in the 88mm gap and zip-tie it to the U-channels: 4 ties per side, holes 16 to 19. It must not move at all.
-7. Bend the sheet by hand and slide one end fully (40mm) into the slot. Rest the free end on the intake plate.
-8. Zip-tie the sheet in the slot: holes 3 and 4, both sides.
-9. Fit 2 zip tie links per side (holes 1 and 2). No rubber bands.
-10. Glue the sheet front edge to the intake plate: 4 small drops (about 2mm each, about 20mm apart) along the edge, after the zip ties. Hold 30 to 60 seconds, wait 10 minutes before taping, full strength in about 24 hours.
-11. Tape the sheet front edge onto the intake plate, then wrap tape over every zip tie. Never tape straight onto V3.
+7. Right sheet: hold it level at the slot, turned out to the right about 15 degrees. Slide the inner corner 40mm into the slot. Let the free part rest on the intake plate.
+8. Left sheet: the same, turned out to the left.
+9. Zip-tie each sheet at V3 holes 1 to 4 on its side (8 ties). No rubber bands.
+10. Glue the front edge of each sheet to the intake plate: 4 small drops per sheet (about 2mm each, about 20mm apart), after the zip ties. Hold 30 to 60 seconds, wait 10 minutes before taping, full strength in about 24 hours.
+11. Tape the front edge of each sheet onto the intake plate, then wrap tape over every zip tie (16 pieces). Never tape straight onto V3.
 
 ## Fit check (1 to 3mm tolerance allowed)
 
@@ -86,17 +86,16 @@ V3 has the same front, slot, width and holes as the older V2, so these CAD check
 |---|---|---|
 | V3 width vs 88mm gap (channels 316 and 317) | 0 to 0.3mm | Pass |
 | Standoff 378 into V3 / into ball path | 1.7mm / 1.6mm | Pass |
-| Sheet width vs V3 slot | 0mm | Pass |
+| Sheets in V3 slot | inner corners only, may overlap a little in the middle | **Check on robot** |
 | POLLEN ball (71mm) in channel | 8.5mm room per side | Pass |
 | Sheet in 1.7mm slot | 1.5mm loose | Pass |
 | Step into V3 at slot | 2.5mm | Pass |
-| Sheet length on slope | 1 to 2.5mm short | Pass (sheet flexes) |
+| Sheet angle | about 15 degrees out each side | **Check on robot** |
 | Sheet holes vs V3 holes | 0.1 to 2.7mm | Pass with 2.5mm ties |
 | V3 mounting with zip ties | covers the 3 to 38mm hole offset | Pass |
 | Plate 368 after the fix | 4mm clear of the ball | Pass |
 | V3 top vs brackets 393/394 | about 3mm | **Check on robot** |
 | Shooter height above hood E | 2 to 22mm | **Check on robot** |
-| Zip tie link length | 46 to 48mm loop to loop | **Check on robot** |
 | U-channel gap 316 to 317 | must be 88mm at all heights | **Set with a ruler** |
 | Intake plate tilt | +3 deg suggested (back edge up 4 to 5mm, about 7.7mm left under the shooter in CAD) | **Check on robot** |
 | Floor tilt (CAD) | about 6 deg, 8.6mm side to side | **Check on robot** |
@@ -105,7 +104,7 @@ V3 has the same front, slot, width and holes as the older V2, so these CAD check
 
 ## 3D Printing
 
-| Setting | V3 rail guard | Flex Sheet | Plate 368 |
+| Setting | V3 rail guard | OP2 Sheet (x2) | Plate 368 |
 |---|---|---|---|
 | Material | PETG or PLA+ | PETG | PETG or PLA+ |
 | Infill | **100%** | **100%** | **100%** |
@@ -131,7 +130,7 @@ Use 100% infill for all parts.
 
 ## Note
 
-This design has not been tested on a robot yet. The 0.2mm sheet is very thin and can sag under the ball. Only the 71mm POLLEN ball fits the channel. Please check the fit by hand before competition use and share feedback with us.
+This design has been built on a robot but not shooting tested yet. The 0.2mm sheets are very thin and can sag under the ball. Only the 71mm POLLEN ball fits the channel. Please check the fit by hand before competition use and share feedback with us.
 
 ## Contact
 
