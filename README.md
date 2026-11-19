@@ -176,6 +176,8 @@ The chassis is the foundation of your robot. A weak or poorly planned chassis wi
 | Tank Drive | Strong pushing power, simple build | Rookie teams and defence |
 | Hybrid / Custom | Mix of speed and control | Teams with experience |
 
+For mecanum programming, see the [Mecanum Wheels Presentation](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pdf) (11 slides, also as [PowerPoint](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pptx) and [Google Slides](https://docs.google.com/presentation/d/1pFk_TT_chwXeRFNPrxQcVsmS2CjazTeqLPL-VRhJ6fk/edit)).
+
 ### Precise Shooting Mechanism
 
 The shooter design in `FTC precise shooting mechanism` focuses on repeatability. A shooter that scores 9 out of 10 times is worth more than a fast shooter that scores 5 out of 10. The folder covers:
