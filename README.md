@@ -70,7 +70,7 @@ This repository puts tested designs, code, and strategy notes in one place. The 
 
 | Resource | What It Gives You |
 |---|---|
-| Chassis Designs | Proven chassis options to start your robot build |
+| Chassis Designs | Proven chassis options to start your robot build, including the new Mecanum Chassis Guide |
 | Precise Shooter Mechanism | A highly accurate shooter design with documentation |
 | Shooting and Intake Guide | Strategy notes on how to design and build both systems |
 | FTC Camera Code | Vision code with AprilTag support for precise positioning |
@@ -122,7 +122,12 @@ FTC-India-Resources/
 │ ├── Printing Guide.md # Print settings and fit check
 │ ├── Intake Calculations.md # Typed notes from the handwritten paper
 │ └── Intake calculations (handwritten).jpg
-├── FTC chassis options # Chassis design options
+├── FTC Chassis options/ # Mecanum presentation and the Mecanum Chassis Guide
+│ ├── Mecanum Chassis Guide.pdf # Build, wiring, config, code and testing
+│ ├── Mecanum Chassis Guide.html # Source of the chassis guide
+│ ├── Mecanum Chassis Guide.md # Short summary
+│ └── Mecanum Wheels Presentation.pdf / .pptx
+├── FTC chassis options # Old 1-byte placeholder file
 ├── Help Forum/ # Questions and support
 ├── LICENSE
 └── README.md
@@ -144,12 +149,12 @@ FTC-India-Resources/
 | [FTC Kits](./FTC%20Kits) | Everything for each upgrade kit: guides, parts lists, print files |
 | **[Intake Assembly Guide](./FTC%20Kits/Intake%20Upgrade%20Kit/Intake%20Assembly%20Guide.pdf)** | **Assembly guide** for the Intake Upgrade Kit (PDF) |
 | [FTC Intake mechanism Upgrade](./FTC%20Intake%20mechanism%20Upgrade) | v1 intake roller STL, printing guide, and calculations |
-| [FTC chassis options](./FTC%20chassis%20options) | Picking the right chassis |
+| [FTC Chassis options](./FTC%20Chassis%20options) | Picking the right chassis, the mecanum presentation, and the [Mecanum Chassis Guide](./FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.pdf) |
 | [Help Forum](./Help%20Forum) | Frequently asked questions, basics, common mistakes, and troubleshooting |
 
 ### Suggested Path for New Teams
 
-1. **Start with the chassis.** Open `FTC chassis options` and pick a base.
+1. **Start with the chassis.** Open [`FTC Chassis options`](./FTC%20Chassis%20options) and pick a base. To build a mecanum chassis, follow the [Mecanum Chassis Guide](./FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.pdf).
 2. **Build the shooter.** Print the parts using the `BOM & 3D printing Guide`, then follow the main assembly guide: [V3 Shooting Assembly Guide](./FTC%20Kits/Shooter%20Upgrade%20Kit/V3%20Shooting%20Assembly%20Guide.pdf).
 3. **Plan intake and scoring.** Read the guide in `FTC Docs by Aarav Jaisingh`. The v1 intake roller files are in [`FTC Intake mechanism Upgrade`](./FTC%20Intake%20mechanism%20Upgrade). To build the intake kit, follow the [Intake Assembly Guide](./FTC%20Kits/Intake%20Upgrade%20Kit/Intake%20Assembly%20Guide.pdf).
 4. **Add vision.** Pick a webcam with the `Camera buying Guide`, then use `FTC Camera/FTC-camera(v1).py` for AprilTag positioning.
@@ -204,6 +209,8 @@ The chassis is the foundation of your robot. A weak or poorly planned chassis wi
 | Mecanum Drive | Moves in every direction | Precise alignment and scoring |
 | Tank Drive | Strong pushing power, simple build | Rookie teams and defence |
 | Hybrid / Custom | Mix of speed and control | Teams with experience |
+
+**New: [Mecanum Chassis Guide](./FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.pdf)** (15 pages, [summary](./FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.md)). A goBILDA style build with a U-channel frame, 4 x 104 mm GripForce mecanum wheels and 312 RPM Yellow Jacket motors: parts list with approximate costs, step pictures, the X roller pattern (and the O mistake), wiring to the Control Hub, configuration names, motor directions, the gm0 robot-centric and field-centric Java code, a first drive checklist and troubleshooting.
 
 For mecanum programming, see the [Mecanum Wheels Presentation](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pdf) by Aarav J. (18 slides, now with a new "What are mecanum wheels?" slide, also as [PowerPoint](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pptx) and [Google Slides](https://docs.google.com/presentation/d/10t6m5lrtCYghSzNBLcLgv_6zWi-kxssT0vhTHXqJd7Y/edit)).
 
@@ -328,6 +335,7 @@ Please keep files organised in the existing folder structure and use simple, cle
 | Planned Addition | Status |
 |---|---|
 | More chassis CAD files | Planned |
+| Mecanum chassis guide | Done, in [FTC Chassis options](./FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.pdf). Not built and tested by us yet |
 | Improved AprilTag code (v2) | Planned |
 | V3 shooter 3D files | Done |
 | Shooter BOM and printing guide | Done |

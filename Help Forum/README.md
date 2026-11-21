@@ -180,7 +180,7 @@ It was created by Aarav Jaisingh (Aarav J.), in collaboration with Team R- Facto
 | [FTC precise shooting mechanism](../FTC%20precise%20shooting%20mechanism) | V3 shooter print files, theory PDF, photos |
 | [FTC Intake mechanism Upgrade](../FTC%20Intake%20mechanism%20Upgrade) | v1 intake roller STL, the FTC Intake Attachment STL, printing guide, and calculations |
 | [FTC Camera](../FTC%20Camera) | Laptop Python app, buying guide, Java integration plan, and starter OpMode |
-| [FTC Chassis options](../FTC%20Chassis%20options) | Mecanum wheels presentation (PDF, PowerPoint, and Google Slides) |
+| [FTC Chassis options](../FTC%20Chassis%20options) | Mecanum wheels presentation (PDF, PowerPoint, and Google Slides) and the [Mecanum Chassis Guide](../FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.pdf) |
 | [FTC Docs by Aarav Jaisingh](../FTC%20Docs%20by%20Aarav%20Jaisingh) | Shooting and intake strategy guide, shooter trajectory calculations, and a copy of the mecanum presentation |
 | [Help Forum](./README.md) | This page |
 
@@ -222,6 +222,10 @@ In [`FTC Chassis options`](../FTC%20Chassis%20options), by Aarav J.:
 - [Google Slides](https://docs.google.com/presentation/d/10t6m5lrtCYghSzNBLcLgv_6zWi-kxssT0vhTHXqJd7Y/edit)
 
 The deck covers how mecanum wheels move, simple trigonometry for driving at any angle, driving on curves, normalising wheel powers, step-by-step calculations, Java for robot-centric and field-centric drive, and testing. The main README describes the current deck as 18 slides, including a "What are mecanum wheels?" slide.
+
+**Is there a guide to build a mecanum chassis?**
+
+Yes. The [Mecanum Chassis Guide](../FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.pdf) (15 pages, with a [short summary](../FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.md)) shows a goBILDA style build: a U-channel frame, 4 x 104 mm GripForce mecanum wheels, 312 RPM Yellow Jacket motors, bearings and spacers. It covers the parts list with approximate costs, the X roller pattern (and the O mistake), wiring to the Control Hub ports, configuration names, motor directions, the gm0 robot-centric and field-centric Java code, a first drive checklist and troubleshooting. We have not built and tested this exact chassis yet.
 
 **How do we get a copy of the files?**
 
@@ -929,7 +933,7 @@ These points come from the [Camera Integration Plan](../FTC%20Camera/Camera%20In
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
-| Robot will not strafe, or it curves when it should go sideways | Wheel rollers are not in an X, or one motor direction is reversed | Check wheel orientation against the [presentation](../FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pdf), then check motor directions in code |
+| Robot will not strafe, or it curves when it should go sideways | Wheel rollers are not in an X, or one motor direction is reversed | Check wheel orientation against the [presentation](../FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pdf) or page 4 of the [Mecanum Chassis Guide](../FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.pdf), then check motor directions in code |
 | Direction feels wrong at full stick, but better at half stick | Wheel powers not normalised | Normalise so the largest wheel power is 1, as the presentation shows |
 | Field-centric drive drifts or goes the wrong way | IMU heading not initialised, or inverted | Recalibrate the IMU, set heading at the start of the match, and test as the presentation describes. Use the new `IMU` interface |
 | Robot is hard to line up in front of the shooter | Using only tank turns to shift sideways | That is a reason teams use mecanum: you can strafe a little left or right without turning in a circle. See the presentation for the drive methods |
@@ -1109,6 +1113,8 @@ Clear questions get faster and better answers.
 | Camera integration plan (Java) | [Camera Integration Plan.md](../FTC%20Camera/Camera%20Integration%20Plan.md) |
 | Starter OpMode | [CameraAimTeleOp.java](../FTC%20Camera/CameraAimTeleOp.java) |
 | Laptop AprilTag app | [FTC-camera(v1).py](../FTC%20Camera/FTC-camera(v1).py) |
+| Mecanum Chassis Guide (PDF) | [Mecanum Chassis Guide.pdf](../FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.pdf) |
+| Mecanum Chassis Guide (summary) | [Mecanum Chassis Guide.md](../FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.md) |
 | Mecanum presentation (PDF) | [Mecanum Wheels Presentation.pdf](../FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pdf) |
 | Mecanum presentation (PowerPoint) | [Mecanum Wheels Presentation.pptx](../FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pptx) |
 | Mecanum presentation (Google Slides) | [Google Slides](https://docs.google.com/presentation/d/10t6m5lrtCYghSzNBLcLgv_6zWi-kxssT0vhTHXqJd7Y/edit) |
