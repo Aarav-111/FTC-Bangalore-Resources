@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="FTC Bangalore Resources banner" width="100%">
+  <img src="assets/banner.svg" alt="FTC India Resources banner" width="100%">
 </p>
 
 <p align="center">
@@ -10,9 +10,9 @@
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen" alt="Contributions Welcome">
 </p>
 
-# FTC Bangalore Resources
+# FTC India Resources
 
-Welcome to **FTC-Bangalore-Resources**, an open collection of custom-built materials for the **FTC 2027 Challenge** (released in 2026).
+Welcome to **FTC-India-Resources**, an open collection of custom-built materials for the **FTC 2027 Challenge** (released in 2026).
 
 This repository was started in Bangalore, but it is not just for Bangalore. It is for every FTC team in **India**. Whether you are a rookie team building your first robot or a veteran team chasing a spot at the next level, you will find something useful here.
 
@@ -84,7 +84,7 @@ This repository puts tested designs, code, and strategy notes in one place. The 
 ## How to Navigate This Repository
 
 ```
-FTC-Bangalore-Resources/
+FTC-India-Resources/
 ├── assets/
 │ └── banner.svg # Images used in this README
 ├── FTC Camera/
@@ -148,8 +148,8 @@ FTC-Bangalore-Resources/
 You can browse files directly on GitHub. If you want a local copy, clone the repository:
 
 ```bash
-git clone https://github.com/Aarav-111/FTC-Bangalore-Resources.git
-cd FTC-Bangalore-Resources
+git clone https://github.com/Aarav-111/FTC-India-Resources.git
+cd FTC-India-Resources
 ```
 
 If you do not use Git, click the green **Code** button on GitHub and choose **Download ZIP**.
