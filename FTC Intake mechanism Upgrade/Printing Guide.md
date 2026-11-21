@@ -4,6 +4,20 @@ This guide is for [`Intake Upgrade v1.stl`](./Intake%20Upgrade%20v1.stl) in this
 
 The notes below describe the shape of the part and how we recommend printing it. How the part is used on the robot is to confirm with Aarav.
 
+## New: FTC Intake Attachment.stl (19 to 21 Nov 2026)
+
+Aarav sent a new file, [`FTC Intake Attachment.stl`](./FTC%20Intake%20Attachment.stl). This is the part in the [Intake Upgrade Kit](../FTC%20Kits/Intake%20Upgrade%20Kit), and the [Intake Assembly Guide](../FTC%20Kits/Intake%20Upgrade%20Kit/Intake%20Assembly%20Guide.pdf) shows how to fit it and wrap the foam.
+
+We checked it against `Intake Upgrade v1.stl`. The shape is the same: 180.00 mm long, 29.97 x 29.99 mm across, a 7.00 mm hex hole (across flats) all the way through, 119.27 cm3 solid, 636 triangles, watertight. **The only difference is the orientation.** The new file is lying on its side (the 180 mm length runs along Y, centred on the hex hole), while `Intake Upgrade v1.stl` is already standing up.
+
+So the print settings below are the same for both files, with one extra step for the new file:
+
+- In the slicer, rotate `FTC Intake Attachment.stl` by 90 degrees so it **stands on one flat end**, 180 mm tall. Then use the settings below (100% infill, 3 or 4 walls, 5 to 8 mm brim, no supports).
+
+![FTC Intake Attachment, as exported (lying on its side)](./intake_attachment_iso.png)
+
+![FTC Intake Attachment, end view with the 7 mm hex hole](./intake_attachment_end.png)
+
 ## Previews
 
 ![Intake Upgrade v1, standing upright to print](./intake_v1_iso.png)
@@ -99,12 +113,12 @@ These numbers are from the solid mesh volume (119.27 cm3) at 100% infill. They d
 5. Check the hex hole, across flats, at both ends. We want about 7.00 mm.
 6. Test that the hex shaft (exact size to confirm with Aarav) slides through the full length without forcing it. If the hole is tight, we can lightly sand the flats. Do not open it out so much that the shaft spins.
 7. Look down the hole to check it is straight.
-8. If we add foam around the roller, the planned sizes are in [Intake Calculations](./Intake%20Calculations.md). How the foam is fitted is to confirm with Aarav.
+8. The foam is wrapped around the roller, layer by layer, until it reaches the POLLEN. See the [Intake Assembly Guide](../FTC%20Kits/Intake%20Upgrade%20Kit/Intake%20Assembly%20Guide.pdf). The planned sizes are in [Intake Calculations](./Intake%20Calculations.md).
 9. Test the fit on the robot before we glue or pin anything. The mounting is to confirm with Aarav.
 
 ## To confirm with Aarav
 
 - Which filament to use, PLA or PETG.
 - The exact hex shaft size that should go through the 7 mm hole.
-- How the roller is mounted on the robot, and how any foam is fitted.
+- How the roller is mounted on the robot. (How the foam is fitted is now in the Intake Assembly Guide.)
 - Whether the 0.06 mm hole offset causes a real fit problem.
