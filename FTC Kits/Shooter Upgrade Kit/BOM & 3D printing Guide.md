@@ -52,12 +52,12 @@ Keep the **left edge against plate 367**. The POLLEN ball then has **4mm of clea
 
 | File | Link |
 |---|---|
-| All 3D files (folder) | [V3 Shooter 3D files](./V3%20Shooter%203D%20files) |
-| V3 rail guard (main) | [FTC Shooter V3 Rail Guard.stl](./V3%20Shooter%203D%20files/FTC%20Shooter%20V3%20Rail%20Guard.stl) |
-| OP2 (Flex) Sheet, print 2 | [prolabs_plain_sheet_0p2.stl](./V3%20Shooter%203D%20files/prolabs_plain_sheet_0p2.stl) |
-| Plate 368 (5x5) | [plate_368_cut_5x5.stl](./V3%20Shooter%203D%20files/plate_368_cut_5x5.stl) |
-| V2 rail guard (older version, not in the kit) | [FTC Shooter V2 Rail Guard.stl](./V3%20Shooter%203D%20files/Older%20versions/FTC%20Shooter%20V2%20Rail%20Guard.stl) |
-| Testing videos and photos | [Testing videos and photos](./V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) (5 photos and a walkaround video of the finished V3 shooter) |
+| All 3D files (folder) | [V3 Shooter 3D files](../../FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files) |
+| V3 rail guard (main) | [FTC Shooter V3 Rail Guard.stl](../../FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/FTC%20Shooter%20V3%20Rail%20Guard.stl) |
+| OP2 (Flex) Sheet, print 2 | [prolabs_plain_sheet_0p2.stl](../../FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/prolabs_plain_sheet_0p2.stl) |
+| Plate 368 (5x5) | [plate_368_cut_5x5.stl](../../FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/plate_368_cut_5x5.stl) |
+| V2 rail guard (older version, not in the kit) | [FTC Shooter V2 Rail Guard.stl](../../FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Older%20versions/FTC%20Shooter%20V2%20Rail%20Guard.stl) |
+| Testing videos and photos | [Testing videos and photos](../../FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) (5 photos and a walkaround video of the finished V3 shooter) |
 
 ## Assembly
 

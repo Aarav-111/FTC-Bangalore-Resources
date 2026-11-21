@@ -27,7 +27,7 @@ The shooter upgrade kit is now **V3**, and both OP2 sheets are now fitted (one o
 | V2 renamed to V3 | The kit, folder and guide are now called V3: `V3 Shooter 3D files` and `V3 Shooting Assembly Guide` |
 | Kit is V3 only | The kit has 1 V3 main shooter, 2 Plate 368 (1 used, 1 spare), 2 Prolabs OP2 sheets (both used), electrical tape, zip ties and a small bottle of super glue. V2 is an older version, not in the kit |
 | Both OP2 sheets fitted (19 Nov) | One sheet on each side of the shooter intake. The inner corner of each sheet goes into the V3 slot and the rest turns out about 15 degrees, like a funnel, onto the intake plate. 4 zip ties per sheet at V3 holes 1 to 4. The old zip tie links are gone |
-| New assembly guide | [V3 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf): 27 pages, 15 steps, 3D pictures for every step and 5 real photos |
+| New assembly guide | [V3 Shooting Assembly Guide](./FTC%20Kits/Shooter%20Upgrade%20Kit/V3%20Shooting%20Assembly%20Guide.pdf): 27 pages, 15 steps, 3D pictures for every step and 5 real photos |
 | Zip ties only | No rubber bands. 16 zip ties per robot. Tape goes only over the zip ties |
 | Super glue step | A few small drops fix the front edge of each sheet to the intake plate |
 | 88mm channel gap step | Set U-channels 316 and 317 to exactly 88mm apart, measured at 3 heights |
@@ -43,15 +43,16 @@ The shooter upgrade kit is now **V3**, and both OP2 sheets are now fitted (one o
 2. [What You Will Find](#what-you-will-find)
 3. [How to Navigate This Repository](#how-to-navigate-this-repository)
 4. [Getting Started](#getting-started)
-5. [Resource Details](#resource-details)
-6. [Strategy Guide Overview](#strategy-guide-overview)
-7. [Tips for Indian FTC Teams](#tips-for-indian-ftc-teams)
-8. [Help Forum](#help-forum)
-9. [Contributing](#contributing)
-10. [Roadmap](#roadmap)
-11. [Credits](#credits)
-12. [Contact](#contact)
-13. [License](#license)
+5. [FTC Kits](#ftc-kits)
+6. [Resource Details](#resource-details)
+7. [Strategy Guide Overview](#strategy-guide-overview)
+8. [Tips for Indian FTC Teams](#tips-for-indian-ftc-teams)
+9. [Help Forum](#help-forum)
+10. [Contributing](#contributing)
+11. [Roadmap](#roadmap)
+12. [Credits](#credits)
+13. [Contact](#contact)
+14. [License](#license)
 
 ---
 
@@ -76,7 +77,8 @@ This repository puts tested designs, code, and strategy notes in one place. The 
 | Camera Buying Guide | Webcam comparison for AprilTag detection, with India prices |
 | Shooter BOM and 3D Files | Bill of materials, print settings, and the 3 V3 print files |
 | V3 Shooting Assembly Guide | Main assembly guide for the V3 shooter upgrade kit (PDF) |
-| Intake mechanism Upgrade (v1) | v1 roller STL, printing guide, and intake calculations |
+| Intake mechanism Upgrade (v1) | v1 roller STL, the new FTC Intake Attachment STL, printing guide, and intake calculations |
+| FTC Kits | Everything for each upgrade kit in one place: the Shooter Upgrade Kit and the Intake Upgrade Kit, with assembly guides |
 | Help Forum | A place to ask questions and get support |
 
 ---
@@ -93,11 +95,20 @@ FTC-India-Resources/
 ├── FTC Docs by Aarav Jaisingh/
 │ ├── FTC_Shooting_and_Intake_Mechanism.pdf # Strategy guide for shooter and intake
 │ └── Shooter Trajectory Calculations.md # Full shooter trajectory maths (drag, Magnus, flywheel, Python)
+├── FTC Kits/ # Everything for each upgrade kit
+│ ├── Shooter Upgrade Kit/
+│ │ ├── README.md # Kit contents
+│ │ ├── V3 Shooting Assembly Guide.pdf # Main assembly guide (V3 kit)
+│ │ ├── V3 Shooting Assembly Guide.html # Source of the main assembly guide
+│ │ └── BOM & 3D printing Guide.md # Parts list and print settings
+│ └── Intake Upgrade Kit/
+│ ├── README.md # Kit contents
+│ ├── Intake Assembly Guide.pdf # Assembly guide (intake kit)
+│ ├── Intake Assembly Guide.html # Source of the intake guide
+│ ├── FTC Intake Attachment.stl # The part to print
+│ └── Guide source/ # Scripts used to make the guide
 ├── FTC precise shooting mechanism/
-│ ├── BOM & 3D printing Guide.md # Parts list and print settings
 │ ├── FTC Shooting and Intake Mechanism Theory.pdf # Theory behind the design
-│ ├── V3 Shooting Assembly Guide.pdf # Main assembly guide (V3 kit)
-│ ├── V3 Shooting Assembly Guide.html # Source of the main assembly guide
 │ └── V3 Shooter 3D files/ # The 3 files to print
 │ ├── FTC Shooter V3 Rail Guard.stl # Main shooter (in the kit)
 │ ├── prolabs_plain_sheet_0p2.stl
@@ -107,11 +118,12 @@ FTC-India-Resources/
 ├── FTC Intake mechanism Upgrade/ # v1 intake roller, printing guide, calculations
 │ ├── v1 by Aarav Jaisingh.md # Start here
 │ ├── Intake Upgrade v1.stl # The part to print
+│ ├── FTC Intake Attachment.stl # Kit part (same shape as v1, lying on its side)
 │ ├── Printing Guide.md # Print settings and fit check
 │ ├── Intake Calculations.md # Typed notes from the handwritten paper
 │ └── Intake calculations (handwritten).jpg
 ├── FTC chassis options # Chassis design options
-├── Help forum # Questions and support
+├── Help Forum/ # Questions and support
 ├── LICENSE
 └── README.md
 ```
@@ -127,8 +139,10 @@ FTC-India-Resources/
 | [FTC precise shooting mechanism](./FTC%20precise%20shooting%20mechanism) | Shooter theory, V3 print files, and guides |
 | [V3 Shooter 3D files](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files) | The 3 files to print |
 | [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) | Photos and a walkaround video of the finished V3 shooter on the robot |
-| [BOM & 3D printing Guide](./FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md) | Parts list and print settings for the V3 shooter |
-| **[V3 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf)** | **Main assembly guide** for the V3 shooter upgrade kit (PDF) |
+| [BOM & 3D printing Guide](./FTC%20Kits/Shooter%20Upgrade%20Kit/BOM%20%26%203D%20printing%20Guide.md) | Parts list and print settings for the V3 shooter |
+| **[V3 Shooting Assembly Guide](./FTC%20Kits/Shooter%20Upgrade%20Kit/V3%20Shooting%20Assembly%20Guide.pdf)** | **Main assembly guide** for the V3 shooter upgrade kit (PDF) |
+| [FTC Kits](./FTC%20Kits) | Everything for each upgrade kit: guides, parts lists, print files |
+| **[Intake Assembly Guide](./FTC%20Kits/Intake%20Upgrade%20Kit/Intake%20Assembly%20Guide.pdf)** | **Assembly guide** for the Intake Upgrade Kit (PDF) |
 | [FTC Intake mechanism Upgrade](./FTC%20Intake%20mechanism%20Upgrade) | v1 intake roller STL, printing guide, and calculations |
 | [FTC chassis options](./FTC%20chassis%20options) | Picking the right chassis |
 | [Help Forum](./Help%20Forum) | Frequently asked questions, basics, common mistakes, and troubleshooting |
@@ -136,10 +150,10 @@ FTC-India-Resources/
 ### Suggested Path for New Teams
 
 1. **Start with the chassis.** Open `FTC chassis options` and pick a base.
-2. **Build the shooter.** Print the parts using the `BOM & 3D printing Guide`, then follow the main assembly guide: [V3 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf).
-3. **Plan intake and scoring.** Read the guide in `FTC Docs by Aarav Jaisingh`. The v1 intake roller files are in [`FTC Intake mechanism Upgrade`](./FTC%20Intake%20mechanism%20Upgrade).
+2. **Build the shooter.** Print the parts using the `BOM & 3D printing Guide`, then follow the main assembly guide: [V3 Shooting Assembly Guide](./FTC%20Kits/Shooter%20Upgrade%20Kit/V3%20Shooting%20Assembly%20Guide.pdf).
+3. **Plan intake and scoring.** Read the guide in `FTC Docs by Aarav Jaisingh`. The v1 intake roller files are in [`FTC Intake mechanism Upgrade`](./FTC%20Intake%20mechanism%20Upgrade). To build the intake kit, follow the [Intake Assembly Guide](./FTC%20Kits/Intake%20Upgrade%20Kit/Intake%20Assembly%20Guide.pdf).
 4. **Add vision.** Pick a webcam with the `Camera buying Guide`, then use `FTC Camera/FTC-camera(v1).py` for AprilTag positioning.
-5. **Stuck?** Check the `Help forum`.
+5. **Stuck?** Check the [Help Forum](./Help%20Forum).
 
 ---
 
@@ -163,6 +177,19 @@ Before cutting metal or printing parts, read the strategy guide and the shooter 
 ### Step 3: Adapt, Do Not Just Copy
 
 Every team has different parts, budgets, and tools. Treat these designs as a strong starting point. Change sizes, motors, and materials to match what your team has.
+
+---
+
+## FTC Kits
+
+All the files for each upgrade kit are now in one folder, [FTC Kits](./FTC%20Kits). Print every kit part at 100% infill.
+
+| Kit | What is in the kit | Guide |
+|---|---|---|
+| [Shooter Upgrade Kit](./FTC%20Kits/Shooter%20Upgrade%20Kit) | 1 V3 shooter, 2 Plate 368 (1 spare), 2 OP2 sheets (one on each side, flared out), electrical tape, zip ties, a small bottle of super glue | [V3 Shooting Assembly Guide](./FTC%20Kits/Shooter%20Upgrade%20Kit/V3%20Shooting%20Assembly%20Guide.pdf) (27 pages, 15 steps) |
+| [Intake Upgrade Kit](./FTC%20Kits/Intake%20Upgrade%20Kit) | 1 FTC intake attachment, foam, zip ties | [Intake Assembly Guide](./FTC%20Kits/Intake%20Upgrade%20Kit/Intake%20Assembly%20Guide.pdf) (13 pages, 7 steps) |
+
+For the intake kit, we mount the attachment on the intake hex shaft, then wrap the foam around it, layer by layer, until it reaches the POLLEN. The foam should just touch the POLLEN and grip it. The STL source folders ([V3 Shooter 3D files](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files) and [FTC Intake mechanism Upgrade](./FTC%20Intake%20mechanism%20Upgrade)) stay where they were.
 
 ---
 
@@ -195,8 +222,8 @@ What is inside:
 |---|---|
 | `FTC Shooting and Intake Mechanism Theory.pdf` | Theory behind the shooter and intake design |
 | `V3 Shooter 3D files` | The 3 files to print (see below), plus `Older versions` and `Testing videos and photos` |
-| `BOM & 3D printing Guide.md` | Parts list and 3D printing settings |
-| `V3 Shooting Assembly Guide.pdf` | **Main assembly guide** for the V3 shooter upgrade kit |
+| `BOM & 3D printing Guide.md` | Parts list and 3D printing settings (now in [FTC Kits/Shooter Upgrade Kit](./FTC%20Kits/Shooter%20Upgrade%20Kit)) |
+| `V3 Shooting Assembly Guide.pdf` | **Main assembly guide** for the V3 shooter upgrade kit (now in [FTC Kits/Shooter Upgrade Kit](./FTC%20Kits/Shooter%20Upgrade%20Kit)) |
 
 **What to print (V3):** all at 100% infill. Print 2 sheets, 1 of everything else.
 
@@ -259,7 +286,7 @@ Key ideas from the guide:
 |---|---|
 | Parts take long to ship | Order key parts early and keep spares of motors and servos |
 | Limited budget | Use 3D printed parts and aluminium sheet where possible |
-| No experienced mentor | Use this repository and the help forum, and connect with nearby teams |
+| No experienced mentor | Use this repository and the Help Forum, and connect with nearby teams |
 | Hot and humid conditions | Check batteries and wiring often, heat affects performance |
 | Limited field access | Build a partial practice field with key scoring zones |
 
@@ -273,7 +300,7 @@ Other habits that help:
 
 ## Help Forum
 
-Have a question? Open the `Help forum` file for guidance, or start a discussion by opening an issue on this repository. When you ask, include:
+Have a question? Open the [Help Forum](./Help%20Forum) for guidance, or start a discussion by opening an issue on this repository. When you ask, include:
 
 - What you are trying to build
 - What you have tried so far
@@ -308,6 +335,8 @@ Please keep files organised in the existing folder structure and use simple, cle
 | Testing videos and assembly photos | Photos and a walkaround video are in [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos). Shooting test videos planned |
 | AprilTag camera buying guide | Done |
 | Intake mechanism documentation | v1 STL, printing guide and calculations are in [FTC Intake mechanism Upgrade](./FTC%20Intake%20mechanism%20Upgrade). More to come |
+| Intake Upgrade Kit and assembly guide | Done, in [FTC Kits/Intake Upgrade Kit](./FTC%20Kits/Intake%20Upgrade%20Kit). Not tested on a robot yet |
+| FTC Kits folder | Done |
 | Autonomous path examples | Planned |
 | Video build guides | Planned |
 

@@ -609,4 +609,4 @@ theta 54.43: vacuum check y = 36.60 in (target 36.60), v needed (50 g, S=0.5) = 
 - Wikipedia, *Propagation of uncertainty*: https://en.wikipedia.org/wiki/Propagation_of_uncertainty
 - Wikipedia, *Barometric formula* (air density at altitude): https://en.wikipedia.org/wiki/Barometric_formula
 - goBILDA, *5203 Series Yellow Jacket Motor (1:1 Ratio, 6000 RPM)* spec: https://www.gobilda.com/5203-series-yellow-jacket-motor-1-1-ratio-24mm-length-8mm-rex-shaft-6000-rpm-3-3-5v-encoder/
-- POLLEN size (71 mm): [BOM & 3D printing Guide](../FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md) in this repository.
+- POLLEN size (71 mm): [BOM & 3D printing Guide](../FTC%20Kits/Shooter%20Upgrade%20Kit/BOM%20%26%203D%20printing%20Guide.md) in this repository.

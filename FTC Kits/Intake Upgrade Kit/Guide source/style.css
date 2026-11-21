@@ -1,0 +1,42 @@
+@page{size:A4;margin:12mm 13mm 14mm 13mm}
+*{box-sizing:border-box}body{font-family:Helvetica,Arial,sans-serif;color:#000;background:#fff;margin:0 auto;width:184mm;line-height:1.35;font-size:11pt}
+.page{page-break-after:always;break-after:page;height:270mm;position:relative;overflow:hidden}
+.page:last-child{page-break-after:auto}
+h1{font-size:32pt;margin:0;line-height:1.05}h2{font-size:17pt;margin:0}
+.band{background:#000;color:#fff;padding:9mm 8mm 7mm;margin-bottom:5mm}.band .sub{font-size:12pt;margin-top:3mm}
+.cover .hero{width:100%;height:180mm;object-fit:contain;display:block;margin:2mm auto}
+.cover .meta{display:flex;justify-content:space-between;border-top:2px solid #000;padding-top:3mm;font-size:10.5pt;margin-top:3mm}
+.sec{border-bottom:2px solid #000;padding-bottom:1.5mm;margin:0 0 3mm;font-size:16pt}
+table{border-collapse:collapse;width:100%;font-size:9.5pt}td,th{border:1px solid #000;padding:2px 5px;text-align:left;vertical-align:top}th{background:#000;color:#fff}
+.kitimg{width:100%;height:90mm;object-fit:contain;display:block;margin-bottom:3mm;border:1.5px solid #000}
+.sb{height:133mm;border-bottom:2px dashed #000;padding:2mm 0 1mm;display:flex;flex-direction:column;overflow:hidden}
+.sb:last-child{border-bottom:none}
+.sh{display:flex;align-items:center;gap:3mm}
+.ck{width:7mm;height:7mm;border:2px solid #000;flex:none;border-radius:1mm}
+.sid{background:#000;color:#fff;font-weight:bold;font-size:15pt;padding:0.5mm 2.5mm;border-radius:2mm;flex:none}
+.st{font-size:14pt;font-weight:bold}.sp{margin-left:auto;font-size:8.5pt;border:1px solid #000;padding:0.5mm 2mm;white-space:nowrap}
+.tx{font-size:11pt;margin:1.5mm 0 1.5mm}
+.info{font-size:8.6pt;margin-bottom:1.5mm}.info td:first-child{width:27mm;font-weight:bold;background:#eee}
+.imgs{display:flex;gap:3mm;flex:1;min-height:0;align-items:flex-start}
+.mi{flex:0 0 61%;min-width:0;height:100%;display:flex;align-items:center;justify-content:center;border:1px solid #000}
+.mi img{max-width:100%;max-height:100%;display:block}
+.ii{flex:1;min-width:0}.ii img{width:100%;display:block;border:2.5px solid #000;border-radius:3mm}
+.ii .cap{font-size:8.5pt;font-weight:bold;margin-top:1mm}
+.stephead{font-size:9pt;font-weight:bold;letter-spacing:.04em;text-transform:uppercase}
+.finish img{width:100%;height:112mm;object-fit:contain;display:block;border:1.5px solid #000;margin-bottom:2mm}
+.small{font-size:9.5pt}.legend td{font-size:9.5pt;vertical-align:middle}
+.cl{columns:2;font-size:9.5pt}.cl div{display:flex;gap:2mm;align-items:center;margin:0 0 1.3mm;break-inside:avoid}.cl .b{width:4.5mm;height:4.5mm;border:1.5px solid #000;flex:none}
+svg text{font-family:Helvetica,Arial,sans-serif}
+.note{border:2.5px solid #000;padding:2.5mm 3.5mm;margin:2.5mm 0;font-size:11pt;font-weight:bold}
+.note.small{font-size:10pt}
+.qr{display:flex;flex-direction:column;align-items:center;gap:1.5mm}
+.qrbox{border:1.6mm dashed #000;display:flex;align-items:center;justify-content:center;text-align:center;font-size:9pt;font-weight:bold;background:#fff}
+.qrlab{font-size:9.5pt;font-weight:bold;text-align:center;max-width:44mm}
+.qrs{display:flex;gap:5mm;align-items:flex-start}
+.ph{display:grid;grid-template-columns:1fr 1fr;gap:3mm 4mm;align-items:start}.ph.one{grid-template-columns:1fr;max-width:160mm;margin:0 auto}.ph figure{margin:0}.ph img{width:100%;height:110mm;object-fit:contain;border:1.5px solid #000;display:block}.ph.one img{height:210mm}.ph .c{font-weight:bold;text-align:center;margin-top:1.5mm;font-size:11pt}
+.covrow{display:flex;gap:4mm;align-items:stretch;margin-top:2mm}
+.covimg{display:flex;gap:3mm}.covimg div{flex:1;text-align:center;font-weight:bold;font-size:12pt}.covimg img{width:100%;height:100mm;object-fit:contain;display:block}
+.cred{flex:1;font-size:10.5pt;border-top:2px solid #000;padding-top:2mm}
+.fin2{display:flex;gap:3mm}.fin2 div{flex:1}.fin2 img{width:100%;height:80mm;object-fit:contain;border:1.5px solid #000;display:block}.fin2 .c{font-weight:bold;text-align:center;margin-top:1mm}
+.foot{position:absolute;bottom:0;left:0;right:0;text-align:center;font-size:7.5pt}
+.mi svg{max-width:100%;max-height:100%}

@@ -64,7 +64,7 @@ These are game elements from BIOBUZZ, as used in our shooter fit checks:
 | POLLEN | 71 mm | Fits. CAD shows about 8.5 mm of room per side |
 | NECTAR | 91 mm | About 3 mm too wide. The channel is borderline, so we treat it as **POLLEN only** until we test on a robot |
 
-Those fit numbers are from CAD. The kit has been built on a robot, but **shooting has not been tested yet**. Please check the fit by hand before competition use. Details are in the [BOM and 3D printing Guide](../FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md).
+Those fit numbers are from CAD. The kit has been built on a robot, but **shooting has not been tested yet**. Please check the fit by hand before competition use. Details are in the [BOM and 3D printing Guide](../FTC%20Kits/Shooter%20Upgrade%20Kit/BOM%20%26%203D%20printing%20Guide.md).
 
 **What is a HIVE CELL, and how do AprilTags work this season?**
 
@@ -95,14 +95,26 @@ It was created by Aarav Jaisingh (Aarav J.), in collaboration with Team R- Facto
 
 | Folder or file | What it is |
 |---|---|
-| [FTC precise shooting mechanism](../FTC%20precise%20shooting%20mechanism) | V3 shooter kit: BOM, print files, assembly guide, theory PDF, photos |
-| [FTC Intake mechanism Upgrade](../FTC%20Intake%20mechanism%20Upgrade) | v1 intake roller STL, printing guide, and calculations |
+| [FTC Kits](../FTC%20Kits) | Everything for each upgrade kit: the [Shooter Upgrade Kit](../FTC%20Kits/Shooter%20Upgrade%20Kit) (V3 guide, BOM) and the [Intake Upgrade Kit](../FTC%20Kits/Intake%20Upgrade%20Kit) (intake guide, STL) |
+| [FTC precise shooting mechanism](../FTC%20precise%20shooting%20mechanism) | V3 shooter print files, theory PDF, photos |
+| [FTC Intake mechanism Upgrade](../FTC%20Intake%20mechanism%20Upgrade) | v1 intake roller STL, the FTC Intake Attachment STL, printing guide, and calculations |
 | [FTC Camera](../FTC%20Camera) | Laptop Python app, buying guide, Java integration plan, and starter OpMode |
 | [FTC Chassis options](../FTC%20Chassis%20options) | Mecanum wheels presentation (PDF, PowerPoint, and Google Slides) |
 | [FTC Docs by Aarav Jaisingh](../FTC%20Docs%20by%20Aarav%20Jaisingh) | Shooting and intake strategy guide, plus a copy of the mecanum presentation |
 | [Help Forum](./README.md) | This page |
 
 There is also a 1-byte placeholder file at the repo root named `FTC chassis options`. The real chassis materials are in the folder [`FTC Chassis options`](../FTC%20Chassis%20options) (capital C).
+
+**What is in each kit, and where are the kit files?**
+
+All kit files are in [FTC Kits](../FTC%20Kits):
+
+- [Shooter Upgrade Kit](../FTC%20Kits/Shooter%20Upgrade%20Kit): 1 V3 shooter, 2 Plate 368 (1 spare), 2 OP2 sheets (one on each side, flared out), electrical tape, zip ties, and a small bottle of super glue. Guide: [V3 Shooting Assembly Guide](../FTC%20Kits/Shooter%20Upgrade%20Kit/V3%20Shooting%20Assembly%20Guide.pdf).
+- [Intake Upgrade Kit](../FTC%20Kits/Intake%20Upgrade%20Kit): 1 FTC intake attachment, foam, and zip ties. Guide: [Intake Assembly Guide](../FTC%20Kits/Intake%20Upgrade%20Kit/Intake%20Assembly%20Guide.pdf) (13 pages, 7 steps).
+
+**How much foam goes on the intake attachment?**
+
+Wrap the foam layer by layer until it reaches the POLLEN: it should just touch the POLLEN and give it a light squeeze, about 2 to 3 mm. About 50 mm across is a good place to start testing, but the POLLEN fit check (step 5 in the [Intake Assembly Guide](../FTC%20Kits/Intake%20Upgrade%20Kit/Intake%20Assembly%20Guide.pdf)) decides the real size. This has not been tested on a robot yet.
 
 **Do we have to copy the designs exactly?**
 
@@ -112,8 +124,8 @@ No. Please treat these designs as a strong starting point. Every team has differ
 
 1. Read this Help Forum, then the main [README](../README.md).
 2. For a chassis and for mecanum driving, open [FTC Chassis options](../FTC%20Chassis%20options).
-3. For the shooter, read the [BOM and 3D printing Guide](../FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md), then follow the [V3 Shooting Assembly Guide](../FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf) (27 pages, 15 steps).
-4. For intake and scoring ideas, read the guide in [FTC Docs by Aarav Jaisingh](../FTC%20Docs%20by%20Aarav%20Jaisingh). The v1 intake roller files are in [FTC Intake mechanism Upgrade](../FTC%20Intake%20mechanism%20Upgrade).
+3. For the shooter, read the [BOM and 3D printing Guide](../FTC%20Kits/Shooter%20Upgrade%20Kit/BOM%20%26%203D%20printing%20Guide.md), then follow the [V3 Shooting Assembly Guide](../FTC%20Kits/Shooter%20Upgrade%20Kit/V3%20Shooting%20Assembly%20Guide.pdf) (27 pages, 15 steps).
+4. For intake and scoring ideas, read the guide in [FTC Docs by Aarav Jaisingh](../FTC%20Docs%20by%20Aarav%20Jaisingh). The v1 intake roller files are in [FTC Intake mechanism Upgrade](../FTC%20Intake%20mechanism%20Upgrade). To build the intake kit, follow the [Intake Assembly Guide](../FTC%20Kits/Intake%20Upgrade%20Kit/Intake%20Assembly%20Guide.pdf).
 5. For vision, pick a webcam with the [Camera buying Guide](../FTC%20Camera/Camera%20buying%20Guide.md), then follow the [Camera Integration Plan](../FTC%20Camera/Camera%20Integration%20Plan.md). The Python file is a laptop practice tool, not robot code.
 
 **Is `FTC-camera(v1).py` the code we put on the robot?**
@@ -148,7 +160,7 @@ If you do not use Git, click the green **Code** button on GitHub and choose **Do
 ### How to use the guides
 
 - Read the guide for a part **before** you print or cut anything. Most build mistakes happen when a team starts building before it understands the full design.
-- For the V3 shooter, the **main** assembly guide is the [V3 Shooting Assembly Guide PDF](../FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf). The BOM page also has a short list of steps, but the PDF is the full, updated version (27 pages, 15 steps, 3D pictures, and 5 real photos). There is also an [interactive 3D simulator](https://ftc-shooter-interactive-guide.netlify.app/) that compares V3 with the older V2.
+- For the V3 shooter, the **main** assembly guide is the [V3 Shooting Assembly Guide PDF](../FTC%20Kits/Shooter%20Upgrade%20Kit/V3%20Shooting%20Assembly%20Guide.pdf). The BOM page also has a short list of steps, but the PDF is the full, updated version (27 pages, 15 steps, 3D pictures, and 5 real photos). There is also an [interactive 3D simulator](https://ftc-shooter-interactive-guide.netlify.app/) that compares V3 with the older V2.
 - The shooter kit is **V3 only**. The older V2 rail guard is in [Older versions](../FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Older%20versions). It is not in the kit. Do not print V2 unless you want that older part on purpose.
 - For the intake roller, start with [v1 by Aarav Jaisingh](../FTC%20Intake%20mechanism%20Upgrade/v1%20by%20Aarav%20Jaisingh.md), then the [Printing Guide](../FTC%20Intake%20mechanism%20Upgrade/Printing%20Guide.md). How the roller is mounted on the robot is still to confirm. Some foam notes are in [Intake Calculations](../FTC%20Intake%20mechanism%20Upgrade/Intake%20Calculations.md), and those readings also still need a check.
 - For the camera, read the plan first, then put [`CameraAimTeleOp.java`](../FTC%20Camera/CameraAimTeleOp.java) in `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/`. Hardware names in that file match goBILDA's StarterBot example: `left_drive`, `right_drive`, `intake`, `launcher`, `windmill`, `left_intake_servo`, `right_intake_servo`. The webcam must be named exactly `Webcam 1`.
@@ -158,7 +170,7 @@ If you do not use Git, click the green **Code** button on GitHub and choose **Do
 
 Our standing rule for these kit parts is **100% infill** (fully solid).
 
-**V3 shooter** (from the [BOM and 3D printing Guide](../FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md)):
+**V3 shooter** (from the [BOM and 3D printing Guide](../FTC%20Kits/Shooter%20Upgrade%20Kit/BOM%20%26%203D%20printing%20Guide.md)):
 
 | Setting | V3 rail guard | OP2 sheet (print 2) | Plate 368 |
 |---|---|---|---|
@@ -227,7 +239,7 @@ We do not have a full robot wiring diagram in this repository yet. These points 
 
 - Starting to cut, print or assemble before reading the full guide.
 - Following an old V2 step after the kit became V3 only (18 to 19 Nov 2026). There are no rubber bands, no zip-tie links, and both OP2 sheets are used.
-- Treating the short BOM step list as the full assembly guide. Use the [27-page PDF](../FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf).
+- Treating the short BOM step list as the full assembly guide. Use the [27-page PDF](../FTC%20Kits/Shooter%20Upgrade%20Kit/V3%20Shooting%20Assembly%20Guide.pdf).
 - Opening the 1-byte `FTC chassis options` file at the repo root, instead of the folder [`FTC Chassis options`](../FTC%20Chassis%20options).
 - Putting [`FTC-camera(v1).py`](../FTC%20Camera/FTC-camera(v1).py) on the Control Hub. That file is a laptop tool.
 - Treating CAD fit numbers, example launcher speeds, or untested tilt values as proven match settings.
@@ -235,7 +247,7 @@ We do not have a full robot wiring diagram in this repository yet. These points 
 
 ### Building the shooter
 
-These points come from the [BOM and 3D printing Guide](../FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md) and the V3 assembly guide.
+These points come from the [BOM and 3D printing Guide](../FTC%20Kits/Shooter%20Upgrade%20Kit/BOM%20%26%203D%20printing%20Guide.md) and the V3 assembly guide.
 
 - Printing the older V2 rail guard by mistake. The kit uses [`FTC Shooter V3 Rail Guard.stl`](../FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/FTC%20Shooter%20V3%20Rail%20Guard.stl).
 - Printing the rail guard vertically, or with supports. Print it sideways, with no supports, at 100% infill.
@@ -403,8 +415,11 @@ Clear questions get faster and better answers.
 | File or folder | Link |
 |---|---|
 | Main README | [README.md](../README.md) |
-| V3 Shooting Assembly Guide (PDF) | [V3 Shooting Assembly Guide.pdf](../FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf) |
-| V3 BOM and 3D printing Guide | [BOM & 3D printing Guide.md](../FTC%20precise%20shooting%20mechanism/BOM%20%26%203D%20printing%20Guide.md) |
+| FTC Kits (all kit files) | [FTC Kits](../FTC%20Kits) |
+| Intake Assembly Guide (PDF) | [Intake Assembly Guide.pdf](../FTC%20Kits/Intake%20Upgrade%20Kit/Intake%20Assembly%20Guide.pdf) |
+| Intake kit part (STL) | [FTC Intake Attachment.stl](../FTC%20Kits/Intake%20Upgrade%20Kit/FTC%20Intake%20Attachment.stl) |
+| V3 Shooting Assembly Guide (PDF) | [V3 Shooting Assembly Guide.pdf](../FTC%20Kits/Shooter%20Upgrade%20Kit/V3%20Shooting%20Assembly%20Guide.pdf) |
+| V3 BOM and 3D printing Guide | [BOM & 3D printing Guide.md](../FTC%20Kits/Shooter%20Upgrade%20Kit/BOM%20%26%203D%20printing%20Guide.md) |
 | V3 print files | [V3 Shooter 3D files](../FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files) |
 | Testing photos and walkaround video | [Testing videos and photos](../FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) |
 | Shooter and intake theory PDF | [FTC Shooting and Intake Mechanism Theory.pdf](../FTC%20precise%20shooting%20mechanism/FTC%20Shooting%20and%20Intake%20Mechanism%20Theory.pdf) |
