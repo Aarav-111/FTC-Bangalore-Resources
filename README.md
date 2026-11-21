@@ -129,7 +129,7 @@ FTC-India-Resources/
 | **[V3 Shooting Assembly Guide](./FTC%20precise%20shooting%20mechanism/V3%20Shooting%20Assembly%20Guide.pdf)** | **Main assembly guide** for the V3 shooter upgrade kit (PDF) |
 | [FTC Intake mechanism Upgrade](./FTC%20Intake%20mechanism%20Upgrade) | v1 intake roller STL, printing guide, and calculations |
 | [FTC chassis options](./FTC%20chassis%20options) | Picking the right chassis |
-| [Help forum](./Help%20forum) | Getting help from the community |
+| [Help Forum](./Help%20Forum) | Frequently asked questions, basics, common mistakes, and troubleshooting |
 
 ### Suggested Path for New Teams
 
