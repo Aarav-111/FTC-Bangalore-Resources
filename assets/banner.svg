@@ -29,7 +29,7 @@
     <rect x="30" y="26" width="10" height="10" fill="#fff"/>
     <rect x="16" y="32" width="8" height="8" fill="#fff"/>
   </g>
-  <text x="60" y="110" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">FTC Bangalore Resources</text>
+  <text x="60" y="110" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">FTC India Resources</text>
   <text x="60" y="160" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#d1fae5">Open resources for every FTC team in India</text>
   <text x="135" y="252" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#fcd34d">FTC 2027 Challenge  |  Chassis  |  Shooter  |  AprilTag Vision</text>
 </svg>
