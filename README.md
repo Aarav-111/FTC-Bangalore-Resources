@@ -91,7 +91,8 @@ FTC-India-Resources/
 │ ├── FTC-camera(v1).py # Camera + AprilTag positioning code
 │ └── Camera buying Guide.md # Webcam buying guide for AprilTags
 ├── FTC Docs by Aarav Jaisingh/
-│ └── FTC_Shooting_and_Intake_Mechanism.pdf # Strategy guide for shooter and intake
+│ ├── FTC_Shooting_and_Intake_Mechanism.pdf # Strategy guide for shooter and intake
+│ └── Shooter Trajectory Calculations.md # Full shooter trajectory maths (drag, Magnus, flywheel, Python)
 ├── FTC precise shooting mechanism/
 │ ├── BOM & 3D printing Guide.md # Parts list and print settings
 │ ├── FTC Shooting and Intake Mechanism Theory.pdf # Theory behind the design
@@ -122,6 +123,7 @@ FTC-India-Resources/
 | [FTC Camera](./FTC%20Camera) | AprilTag codes and camera setup for precise positioning |
 | [Camera buying Guide](./FTC%20Camera/Camera%20buying%20Guide.md) | Choosing a webcam for AprilTag detection |
 | [FTC Docs by Aarav Jaisingh](./FTC%20Docs%20by%20Aarav%20Jaisingh) | Shooting and intake strategy guide |
+| [Shooter Trajectory Calculations](./FTC%20Docs%20by%20Aarav%20Jaisingh/Shooter%20Trajectory%20Calculations.md) | Projectile motion, hood angle and launch speed solutions, CELL error window, flywheel RPM recovery, air drag and backspin (RK4), shooting while moving, with a worked example and Python |
 | [FTC precise shooting mechanism](./FTC%20precise%20shooting%20mechanism) | Shooter theory, V3 print files, and guides |
 | [V3 Shooter 3D files](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files) | The 3 files to print |
 | [Testing videos and photos](./FTC%20precise%20shooting%20mechanism/V3%20Shooter%203D%20files/Testing%20videos%20and%20photos) | Photos and a walkaround video of the finished V3 shooter on the robot |
