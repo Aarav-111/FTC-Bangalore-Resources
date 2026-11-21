@@ -1,4 +1,4 @@
-# Mecanum Wheels Presentation (17 slides)
+# Mecanum Wheels Presentation (27 slides, with animations)
 
 - [PDF](./Mecanum%20Wheels%20Presentation.pdf)
 - [PowerPoint (PPTX)](./Mecanum%20Wheels%20Presentation.pptx)

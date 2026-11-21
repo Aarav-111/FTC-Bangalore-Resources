@@ -212,7 +212,7 @@ The chassis is the foundation of your robot. A weak or poorly planned chassis wi
 
 **New: [Mecanum Chassis Guide](./FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.pdf)** (15 pages, [summary](./FTC%20Chassis%20options/Mecanum%20Chassis%20Guide.md)). A goBILDA style build with a U-channel frame, 4 x 104 mm GripForce mecanum wheels and 312 RPM Yellow Jacket motors: parts list with approximate costs, step pictures, the X roller pattern (and the O mistake), wiring to the Control Hub, configuration names, motor directions, the gm0 robot-centric and field-centric Java code, a first drive checklist and troubleshooting.
 
-For mecanum programming, see the [Mecanum Wheels Presentation](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pdf) by Aarav J. (18 slides, now with a new "What are mecanum wheels?" slide, also as [PowerPoint](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pptx) and [Google Slides](https://docs.google.com/presentation/d/10t6m5lrtCYghSzNBLcLgv_6zWi-kxssT0vhTHXqJd7Y/edit)).
+For mecanum programming, see the [Mecanum Wheels Presentation](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pdf) by Aarav J. (27 slides, with animated "What are mecanum wheels?" and "Why use mecanum in FTC?" sections, also as [PowerPoint](./FTC%20Chassis%20options/Mecanum%20Wheels%20Presentation.pptx) and [Google Slides](https://docs.google.com/presentation/d/10t6m5lrtCYghSzNBLcLgv_6zWi-kxssT0vhTHXqJd7Y/edit)).
 
 ### Precise Shooting Mechanism
 
