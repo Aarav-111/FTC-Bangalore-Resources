@@ -192,7 +192,7 @@ Controls (same as goBILDA's TeleOp, plus LB):
 ```java
 /*
  * CameraAimTeleOp.java
- * Prolabs Robotics, FTC Bangalore Resources (Aarav J. and collaborators)
+ * Prolabs Robotics, FTC India Resources (Aarav J. and collaborators)
  *
  * Starter TeleOp for the goBILDA FTC StarterBot 2026-27 (BIOBUZZ) with the V3 shooter
  * and one USB webcam named "Webcam 1".
